@@ -1,0 +1,6 @@
+location_id,location_type,country,region,store_id
+online_us,online,US,North America,
+online_ca,online,CA,North America,
+store_nyc,store,US,North America,NYC001
+store_la,store,US,North America,LA001
+store_toronto,store,CA,North America,TOR001

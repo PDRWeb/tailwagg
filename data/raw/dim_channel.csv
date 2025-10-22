@@ -1,0 +1,8 @@
+channel_id,channel_name,channel_type
+online_store,Online Store,Owned
+instore,Instore,Owned
+meta_paid,Meta Paid,Paid
+tiktok_paid,TikTok Paid,Paid
+email,Email,Owned
+sms,SMS,Owned
+amazon,Amazon,Earned

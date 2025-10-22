@@ -1,0 +1,601 @@
+product_id,sku,name,category_id,brand_id,is_active,attributes,created_at,discontinued_at
+prod_001,SKU-PROD_001,Leash 1,treats,wellness,True,"{'size': 'L', 'color': 'Brown', 'material': 'Fabric'}",2023-11-22 16:49:49.587840+00:00,
+prod_002,SKU-PROD_002,Brush 2,treats,kong,True,"{'size': 'L', 'color': 'Black', 'material': 'Rubber'}",2023-12-12 16:49:49.587887+00:00,
+prod_003,SKU-PROD_003,Harness 3,wellness,hills,True,"{'size': 'S', 'color': 'Black', 'material': 'Plastic'}",2024-03-27 16:49:49.587897+00:00,2025-09-17 16:49:49.587900+00:00
+prod_004,SKU-PROD_004,Toothbrush 4,accessories,hills,False,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2025-03-14 16:49:49.587907+00:00,
+prod_005,SKU-PROD_005,Leash 5,toys,greenies,False,"{'size': 'L', 'color': 'Blue', 'material': 'Metal'}",2023-02-01 16:49:49.587916+00:00,
+prod_006,SKU-PROD_006,Supplements 6,accessories,kong,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2024-01-24 16:49:49.587923+00:00,2025-10-10 16:49:49.587926+00:00
+prod_007,SKU-PROD_007,Food 7,wellness,kong,True,"{'size': 'XL', 'color': 'Blue', 'flavor': 'Beef', 'material': 'Fabric'}",2024-11-07 16:49:49.587933+00:00,
+prod_008,SKU-PROD_008,Brush 8,treats,kong,True,"{'size': 'L', 'color': 'Red', 'material': 'Rubber'}",2023-12-27 16:49:49.587939+00:00,
+prod_009,SKU-PROD_009,Shampoo 9,toys,wellness,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Rubber'}",2024-12-28 16:49:49.587948+00:00,2025-09-28 16:49:49.587950+00:00
+prod_010,SKU-PROD_010,Carrier 10,treats,blue_buffalo,False,"{'size': 'S', 'color': 'Yellow', 'material': 'Fabric'}",2023-08-14 16:49:49.587984+00:00,2025-09-17 16:49:49.587986+00:00
+prod_011,SKU-PROD_011,Supplements 11,accessories,royal_canin,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Rubber'}",2025-08-04 16:49:49.587991+00:00,
+prod_012,SKU-PROD_012,Chew Toy 12,accessories,wellness,True,"{'size': 'XS', 'color': 'Red', 'material': 'Plastic'}",2025-07-14 16:49:49.587998+00:00,
+prod_013,SKU-PROD_013,Food 13,toys,wellness,False,"{'size': 'L', 'color': 'Green', 'flavor': 'Beef', 'material': 'Wood'}",2024-05-07 16:49:49.588005+00:00,2025-09-20 16:49:49.588007+00:00
+prod_014,SKU-PROD_014,Supplements 14,wellness,wellness,False,"{'size': 'XS', 'color': 'Brown', 'material': 'Fabric'}",2023-05-29 16:49:49.588013+00:00,2025-09-18 16:49:49.588015+00:00
+prod_015,SKU-PROD_015,Treats 15,toys,nylabone,True,"{'size': 'L', 'color': 'Blue', 'flavor': 'Salmon', 'material': 'Plastic'}",2024-08-23 16:49:49.588021+00:00,2025-10-11 16:49:49.588023+00:00
+prod_016,SKU-PROD_016,Food 16,wellness,greenies,True,"{'size': 'L', 'color': 'Blue', 'flavor': 'Beef', 'material': 'Metal'}",2025-06-05 16:49:49.588029+00:00,
+prod_017,SKU-PROD_017,Leash 17,toys,wellness,True,"{'size': 'L', 'color': 'Pink', 'material': 'Metal'}",2023-06-18 16:49:49.588035+00:00,
+prod_018,SKU-PROD_018,Chew Toy 18,treats,hills,True,"{'size': 'L', 'color': 'Black', 'material': 'Metal'}",2023-05-04 16:49:49.588043+00:00,2025-10-11 16:49:49.588046+00:00
+prod_019,SKU-PROD_019,Bed 19,treats,blue_buffalo,True,"{'size': 'XS', 'color': 'Red', 'material': 'Fabric'}",2025-06-06 16:49:49.588053+00:00,2025-09-29 16:49:49.588056+00:00
+prod_020,SKU-PROD_020,Treats 20,accessories,greenies,True,"{'size': 'XL', 'color': 'Green', 'flavor': 'Chicken', 'material': 'Rubber'}",2024-05-23 16:49:49.588061+00:00,2025-10-12 16:49:49.588064+00:00
+prod_021,SKU-PROD_021,Treats 21,accessories,wellness,True,"{'size': 'XL', 'color': 'Brown', 'flavor': 'Chicken', 'material': 'Wood'}",2024-03-31 16:49:49.588069+00:00,
+prod_022,SKU-PROD_022,Food 22,grooming,wellness,True,"{'size': 'L', 'color': 'Black', 'flavor': 'Beef', 'material': 'Metal'}",2025-04-21 16:49:49.588076+00:00,
+prod_023,SKU-PROD_023,Shampoo 23,wellness,nylabone,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Wood'}",2024-12-19 16:49:49.588082+00:00,
+prod_024,SKU-PROD_024,Toothbrush 24,toys,wellness,True,"{'size': 'M', 'color': 'Green', 'material': 'Metal'}",2025-08-31 16:49:49.588087+00:00,
+prod_025,SKU-PROD_025,Food 25,toys,greenies,True,"{'size': 'XS', 'color': 'Green', 'flavor': 'Chicken', 'material': 'Fabric'}",2024-07-12 16:49:49.588094+00:00,
+prod_026,SKU-PROD_026,Tag 26,treats,blue_buffalo,False,"{'size': 'M', 'color': 'Red', 'material': 'Rubber'}",2024-02-28 16:49:49.588100+00:00,
+prod_027,SKU-PROD_027,Collar 27,toys,purina,False,"{'size': 'M', 'color': 'Green', 'material': 'Metal'}",2025-08-28 16:49:49.588106+00:00,
+prod_028,SKU-PROD_028,Treats 28,toys,greenies,True,"{'size': 'M', 'color': 'Green', 'flavor': 'None', 'material': 'Metal'}",2025-06-23 16:49:49.588113+00:00,
+prod_029,SKU-PROD_029,Toothbrush 29,grooming,kong,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Rubber'}",2023-06-07 16:49:49.588119+00:00,
+prod_030,SKU-PROD_030,Leash 30,treats,greenies,True,"{'size': 'L', 'color': 'Red', 'material': 'Plastic'}",2023-05-27 16:49:49.588126+00:00,
+prod_031,SKU-PROD_031,Supplements 31,grooming,greenies,True,"{'size': 'L', 'color': 'Red', 'material': 'Metal'}",2024-08-04 16:49:49.588132+00:00,2025-10-04 16:49:49.588134+00:00
+prod_032,SKU-PROD_032,Bowl 32,grooming,wellness,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Metal'}",2024-02-24 16:49:49.588141+00:00,
+prod_033,SKU-PROD_033,Crate 33,grooming,purina,True,"{'size': 'XL', 'color': 'White', 'material': 'Rubber'}",2024-03-31 16:49:49.588147+00:00,
+prod_034,SKU-PROD_034,Treats 34,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'Brown', 'flavor': 'None', 'material': 'Fabric'}",2023-04-07 16:49:49.588154+00:00,
+prod_035,SKU-PROD_035,Food 35,wellness,wellness,True,"{'size': 'XS', 'color': 'Red', 'flavor': 'Turkey', 'material': 'Wood'}",2023-09-02 16:49:49.588160+00:00,2025-10-13 16:49:49.588163+00:00
+prod_036,SKU-PROD_036,Supplements 36,grooming,purina,True,"{'size': 'M', 'color': 'Black', 'material': 'Metal'}",2023-06-15 16:49:49.588168+00:00,
+prod_037,SKU-PROD_037,Bed 37,accessories,greenies,True,"{'size': 'L', 'color': 'Brown', 'material': 'Plastic'}",2023-06-08 16:49:49.588174+00:00,
+prod_038,SKU-PROD_038,Bed 38,grooming,blue_buffalo,False,"{'size': 'L', 'color': 'White', 'material': 'Metal'}",2023-03-26 16:49:49.588182+00:00,
+prod_039,SKU-PROD_039,Leash 39,accessories,royal_canin,True,"{'size': 'XS', 'color': 'Black', 'material': 'Wood'}",2025-03-09 16:49:49.588188+00:00,
+prod_040,SKU-PROD_040,Bed 40,grooming,wellness,True,"{'size': 'S', 'color': 'Red', 'material': 'Rubber'}",2023-01-17 16:49:49.588193+00:00,
+prod_041,SKU-PROD_041,Bed 41,wellness,hills,True,"{'size': 'L', 'color': 'Pink', 'material': 'Metal'}",2024-11-18 16:49:49.588201+00:00,
+prod_042,SKU-PROD_042,Bowl 42,toys,hills,True,"{'size': 'S', 'color': 'Pink', 'material': 'Rubber'}",2025-01-11 16:49:49.588208+00:00,2025-10-11 16:49:49.588210+00:00
+prod_043,SKU-PROD_043,Harness 43,wellness,purina,False,"{'size': 'XL', 'color': 'Brown', 'material': 'Wood'}",2024-10-26 16:49:49.588216+00:00,2025-10-01 16:49:49.588218+00:00
+prod_044,SKU-PROD_044,Food 44,grooming,wellness,False,"{'size': 'XL', 'color': 'Yellow', 'flavor': 'Turkey', 'material': 'Fabric'}",2025-04-11 16:49:49.588224+00:00,
+prod_045,SKU-PROD_045,Brush 45,treats,blue_buffalo,True,"{'size': 'M', 'color': 'Blue', 'material': 'Plastic'}",2024-05-31 16:49:49.588229+00:00,2025-09-23 16:49:49.588231+00:00
+prod_046,SKU-PROD_046,Shampoo 46,treats,wellness,False,"{'size': 'L', 'color': 'Brown', 'material': 'Fabric'}",2023-05-19 16:49:49.588238+00:00,
+prod_047,SKU-PROD_047,Crate 47,treats,hills,False,"{'size': 'XL', 'color': 'Red', 'material': 'Wood'}",2023-01-14 16:49:49.588244+00:00,
+prod_048,SKU-PROD_048,Crate 48,grooming,blue_buffalo,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2024-03-07 16:49:49.588250+00:00,2025-09-30 16:49:49.588252+00:00
+prod_049,SKU-PROD_049,Brush 49,toys,hills,True,"{'size': 'L', 'color': 'Green', 'material': 'Metal'}",2025-07-23 16:49:49.588258+00:00,2025-09-27 16:49:49.588260+00:00
+prod_050,SKU-PROD_050,Shampoo 50,accessories,kong,True,"{'size': 'L', 'color': 'Green', 'material': 'Metal'}",2025-06-06 16:49:49.588265+00:00,
+prod_051,SKU-PROD_051,Bed 51,wellness,purina,False,"{'size': 'L', 'color': 'White', 'material': 'Fabric'}",2024-02-25 16:49:49.588271+00:00,2025-10-07 16:49:49.588273+00:00
+prod_052,SKU-PROD_052,Chew Toy 52,toys,royal_canin,True,"{'size': 'XL', 'color': 'Red', 'material': 'Fabric'}",2025-04-29 16:49:49.588278+00:00,
+prod_053,SKU-PROD_053,Bed 53,toys,wellness,True,"{'size': 'XS', 'color': 'Green', 'material': 'Plastic'}",2023-01-21 16:49:49.588284+00:00,
+prod_054,SKU-PROD_054,Harness 54,accessories,wellness,True,"{'size': 'M', 'color': 'White', 'material': 'Plastic'}",2024-10-16 16:49:49.588290+00:00,
+prod_055,SKU-PROD_055,Snacks 55,toys,kong,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Metal'}",2025-04-14 16:49:49.588296+00:00,
+prod_056,SKU-PROD_056,Supplements 56,toys,blue_buffalo,False,"{'size': 'XL', 'color': 'Red', 'material': 'Fabric'}",2023-08-20 16:49:49.588302+00:00,
+prod_057,SKU-PROD_057,Chew Toy 57,accessories,purina,False,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2023-09-06 16:49:49.588310+00:00,2025-09-23 16:49:49.588312+00:00
+prod_058,SKU-PROD_058,Leash 58,treats,hills,False,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2023-02-07 16:49:49.588317+00:00,2025-09-19 16:49:49.588320+00:00
+prod_059,SKU-PROD_059,Brush 59,accessories,blue_buffalo,False,"{'size': 'S', 'color': 'Blue', 'material': 'Fabric'}",2024-05-05 16:49:49.588325+00:00,2025-09-27 16:49:49.588327+00:00
+prod_060,SKU-PROD_060,Brush 60,accessories,hills,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Fabric'}",2022-12-23 16:49:49.588336+00:00,
+prod_061,SKU-PROD_061,Brush 61,grooming,blue_buffalo,True,"{'size': 'M', 'color': 'Black', 'material': 'Wood'}",2022-10-24 16:49:49.588342+00:00,
+prod_062,SKU-PROD_062,Carrier 62,toys,wellness,False,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2023-03-14 16:49:49.588347+00:00,
+prod_063,SKU-PROD_063,Bowl 63,toys,blue_buffalo,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Fabric'}",2023-01-21 16:49:49.588353+00:00,
+prod_064,SKU-PROD_064,Toothbrush 64,wellness,purina,True,"{'size': 'L', 'color': 'Black', 'material': 'Fabric'}",2024-06-01 16:49:49.588358+00:00,
+prod_065,SKU-PROD_065,Supplements 65,treats,purina,True,"{'size': 'XL', 'color': 'Green', 'material': 'Plastic'}",2022-12-30 16:49:49.588365+00:00,
+prod_066,SKU-PROD_066,Supplements 66,accessories,blue_buffalo,True,"{'size': 'S', 'color': 'Black', 'material': 'Plastic'}",2024-09-14 16:49:49.588371+00:00,
+prod_067,SKU-PROD_067,Food 67,toys,greenies,False,"{'size': 'XS', 'color': 'Black', 'flavor': 'Chicken', 'material': 'Plastic'}",2025-02-18 16:49:49.588377+00:00,
+prod_068,SKU-PROD_068,Tag 68,accessories,blue_buffalo,True,"{'size': 'L', 'color': 'Pink', 'material': 'Fabric'}",2025-06-03 16:49:49.588383+00:00,
+prod_069,SKU-PROD_069,Shampoo 69,wellness,nylabone,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2024-11-10 16:49:49.588389+00:00,
+prod_070,SKU-PROD_070,Shampoo 70,accessories,blue_buffalo,False,"{'size': 'S', 'color': 'Blue', 'material': 'Wood'}",2024-06-11 16:49:49.588394+00:00,2025-10-01 16:49:49.588397+00:00
+prod_071,SKU-PROD_071,Carrier 71,wellness,blue_buffalo,True,"{'size': 'M', 'color': 'Red', 'material': 'Wood'}",2024-07-18 16:49:49.588402+00:00,
+prod_072,SKU-PROD_072,Leash 72,grooming,nylabone,True,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2024-10-31 16:49:49.588407+00:00,
+prod_073,SKU-PROD_073,Tag 73,wellness,royal_canin,True,"{'size': 'M', 'color': 'Red', 'material': 'Plastic'}",2024-02-15 16:49:49.588416+00:00,2025-10-13 16:49:49.588419+00:00
+prod_074,SKU-PROD_074,Bed 74,treats,blue_buffalo,True,"{'size': 'L', 'color': 'Blue', 'material': 'Wood'}",2024-11-15 16:49:49.588424+00:00,
+prod_075,SKU-PROD_075,Treats 75,treats,nylabone,True,"{'size': 'S', 'color': 'Black', 'flavor': 'Salmon', 'material': 'Metal'}",2023-01-31 16:49:49.588430+00:00,
+prod_076,SKU-PROD_076,Tag 76,wellness,blue_buffalo,True,"{'size': 'L', 'color': 'Blue', 'material': 'Wood'}",2023-04-16 16:49:49.588436+00:00,
+prod_077,SKU-PROD_077,Chew Toy 77,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Wood'}",2024-03-14 16:49:49.588443+00:00,
+prod_078,SKU-PROD_078,Harness 78,treats,royal_canin,False,"{'size': 'M', 'color': 'Green', 'material': 'Wood'}",2022-12-14 16:49:49.588451+00:00,
+prod_079,SKU-PROD_079,Carrier 79,wellness,purina,True,"{'size': 'M', 'color': 'White', 'material': 'Rubber'}",2023-11-11 16:49:49.588457+00:00,2025-09-23 16:49:49.588459+00:00
+prod_080,SKU-PROD_080,Crate 80,wellness,blue_buffalo,True,"{'size': 'XL', 'color': 'Red', 'material': 'Metal'}",2023-12-12 16:49:49.588464+00:00,
+prod_081,SKU-PROD_081,Crate 81,grooming,nylabone,False,"{'size': 'XL', 'color': 'Red', 'material': 'Wood'}",2023-05-24 16:49:49.588470+00:00,
+prod_082,SKU-PROD_082,Tag 82,treats,purina,True,"{'size': 'L', 'color': 'Red', 'material': 'Plastic'}",2024-12-22 16:49:49.588475+00:00,
+prod_083,SKU-PROD_083,Supplements 83,wellness,royal_canin,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Plastic'}",2025-08-19 16:49:49.588481+00:00,2025-10-13 16:49:49.588483+00:00
+prod_084,SKU-PROD_084,Harness 84,treats,nylabone,True,"{'size': 'XS', 'color': 'Green', 'material': 'Metal'}",2022-11-09 16:49:49.588488+00:00,
+prod_085,SKU-PROD_085,Tag 85,wellness,royal_canin,True,"{'size': 'S', 'color': 'Pink', 'material': 'Wood'}",2023-07-24 16:49:49.588494+00:00,
+prod_086,SKU-PROD_086,Shampoo 86,accessories,greenies,True,"{'size': 'M', 'color': 'Brown', 'material': 'Fabric'}",2025-09-11 16:49:49.588500+00:00,
+prod_087,SKU-PROD_087,Collar 87,grooming,royal_canin,True,"{'size': 'L', 'color': 'Pink', 'material': 'Fabric'}",2023-08-06 16:49:49.588520+00:00,2025-09-16 16:49:49.588523+00:00
+prod_088,SKU-PROD_088,Bowl 88,grooming,wellness,False,"{'size': 'XL', 'color': 'Brown', 'material': 'Plastic'}",2025-06-19 16:49:49.588528+00:00,
+prod_089,SKU-PROD_089,Crate 89,wellness,hills,True,"{'size': 'S', 'color': 'Pink', 'material': 'Rubber'}",2022-11-23 16:49:49.588534+00:00,
+prod_090,SKU-PROD_090,Supplements 90,toys,royal_canin,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Rubber'}",2023-05-31 16:49:49.588540+00:00,
+prod_091,SKU-PROD_091,Food 91,toys,royal_canin,True,"{'size': 'M', 'color': 'Brown', 'flavor': 'None', 'material': 'Rubber'}",2023-07-31 16:49:49.588546+00:00,
+prod_092,SKU-PROD_092,Shampoo 92,wellness,kong,True,"{'size': 'S', 'color': 'Black', 'material': 'Plastic'}",2023-04-12 16:49:49.588553+00:00,
+prod_093,SKU-PROD_093,Leash 93,toys,royal_canin,True,"{'size': 'M', 'color': 'Red', 'material': 'Rubber'}",2025-05-25 16:49:49.588558+00:00,
+prod_094,SKU-PROD_094,Carrier 94,grooming,purina,False,"{'size': 'S', 'color': 'Yellow', 'material': 'Wood'}",2024-09-13 16:49:49.588565+00:00,
+prod_095,SKU-PROD_095,Crate 95,treats,nylabone,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Metal'}",2024-05-29 16:49:49.588571+00:00,2025-09-25 16:49:49.588573+00:00
+prod_096,SKU-PROD_096,Food 96,grooming,royal_canin,True,"{'size': 'XS', 'color': 'Black', 'flavor': 'Turkey', 'material': 'Wood'}",2025-04-18 16:49:49.588581+00:00,2025-10-04 16:49:49.588583+00:00
+prod_097,SKU-PROD_097,Carrier 97,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Pink', 'material': 'Fabric'}",2023-07-22 16:49:49.588588+00:00,2025-10-12 16:49:49.588590+00:00
+prod_098,SKU-PROD_098,Toothbrush 98,treats,hills,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2023-06-29 16:49:49.588595+00:00,
+prod_099,SKU-PROD_099,Tag 99,toys,kong,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2024-06-25 16:49:49.588602+00:00,
+prod_100,SKU-PROD_100,Collar 100,accessories,blue_buffalo,False,"{'size': 'XS', 'color': 'Red', 'material': 'Fabric'}",2025-07-10 16:49:49.588610+00:00,
+prod_101,SKU-PROD_101,Snacks 101,treats,nylabone,True,"{'size': 'M', 'color': 'Brown', 'material': 'Plastic'}",2024-12-20 16:49:49.588616+00:00,
+prod_102,SKU-PROD_102,Leash 102,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Pink', 'material': 'Fabric'}",2025-01-24 16:49:49.588623+00:00,2025-10-13 16:49:49.588625+00:00
+prod_103,SKU-PROD_103,Crate 103,treats,wellness,False,"{'size': 'XL', 'color': 'White', 'material': 'Rubber'}",2025-08-19 16:49:49.588631+00:00,
+prod_104,SKU-PROD_104,Harness 104,accessories,nylabone,False,"{'size': 'M', 'color': 'Black', 'material': 'Wood'}",2023-08-18 16:49:49.588637+00:00,
+prod_105,SKU-PROD_105,Chew Toy 105,treats,royal_canin,True,"{'size': 'XL', 'color': 'White', 'material': 'Wood'}",2025-05-10 16:49:49.588645+00:00,2025-09-16 16:49:49.588647+00:00
+prod_106,SKU-PROD_106,Supplements 106,grooming,hills,True,"{'size': 'S', 'color': 'Red', 'material': 'Rubber'}",2022-12-13 16:49:49.588653+00:00,
+prod_107,SKU-PROD_107,Collar 107,toys,wellness,False,"{'size': 'L', 'color': 'Pink', 'material': 'Fabric'}",2024-11-04 16:49:49.588658+00:00,2025-09-25 16:49:49.588661+00:00
+prod_108,SKU-PROD_108,Carrier 108,toys,royal_canin,True,"{'size': 'M', 'color': 'Red', 'material': 'Fabric'}",2023-03-23 16:49:49.588666+00:00,2025-10-08 16:49:49.588668+00:00
+prod_109,SKU-PROD_109,Toothbrush 109,grooming,nylabone,False,"{'size': 'XL', 'color': 'White', 'material': 'Rubber'}",2024-02-29 16:49:49.588673+00:00,
+prod_110,SKU-PROD_110,Shampoo 110,toys,royal_canin,True,"{'size': 'S', 'color': 'Red', 'material': 'Rubber'}",2024-05-06 16:49:49.588681+00:00,
+prod_111,SKU-PROD_111,Shampoo 111,accessories,wellness,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Wood'}",2024-05-27 16:49:49.588686+00:00,
+prod_112,SKU-PROD_112,Food 112,treats,kong,True,"{'size': 'S', 'color': 'Black', 'flavor': 'Beef', 'material': 'Plastic'}",2025-07-26 16:49:49.588693+00:00,
+prod_113,SKU-PROD_113,Bowl 113,toys,purina,True,"{'size': 'XL', 'color': 'White', 'material': 'Rubber'}",2024-03-22 16:49:49.588700+00:00,
+prod_114,SKU-PROD_114,Supplements 114,treats,hills,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Metal'}",2022-10-31 16:49:49.588706+00:00,
+prod_115,SKU-PROD_115,Treats 115,wellness,wellness,True,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Salmon', 'material': 'Rubber'}",2023-01-10 16:49:49.588712+00:00,2025-10-02 16:49:49.588714+00:00
+prod_116,SKU-PROD_116,Harness 116,toys,royal_canin,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Fabric'}",2025-05-05 16:49:49.588721+00:00,
+prod_117,SKU-PROD_117,Crate 117,grooming,purina,False,"{'size': 'XL', 'color': 'Black', 'material': 'Metal'}",2025-02-25 16:49:49.588727+00:00,
+prod_118,SKU-PROD_118,Carrier 118,accessories,wellness,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2023-03-03 16:49:49.588733+00:00,2025-10-02 16:49:49.588735+00:00
+prod_119,SKU-PROD_119,Carrier 119,toys,purina,True,"{'size': 'M', 'color': 'Black', 'material': 'Fabric'}",2023-01-19 16:49:49.588743+00:00,
+prod_120,SKU-PROD_120,Shampoo 120,toys,nylabone,True,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2025-05-17 16:49:49.588749+00:00,
+prod_121,SKU-PROD_121,Toothbrush 121,toys,hills,True,"{'size': 'L', 'color': 'Red', 'material': 'Fabric'}",2023-09-27 16:49:49.588776+00:00,
+prod_122,SKU-PROD_122,Collar 122,accessories,wellness,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Rubber'}",2023-08-26 16:49:49.588782+00:00,
+prod_123,SKU-PROD_123,Carrier 123,grooming,wellness,True,"{'size': 'XL', 'color': 'Red', 'material': 'Wood'}",2025-07-19 16:49:49.588788+00:00,
+prod_124,SKU-PROD_124,Brush 124,grooming,blue_buffalo,True,"{'size': 'M', 'color': 'Red', 'material': 'Plastic'}",2023-06-19 16:49:49.588793+00:00,
+prod_125,SKU-PROD_125,Shampoo 125,treats,kong,False,"{'size': 'XL', 'color': 'Yellow', 'material': 'Metal'}",2023-03-02 16:49:49.588799+00:00,
+prod_126,SKU-PROD_126,Snacks 126,treats,purina,True,"{'size': 'M', 'color': 'Blue', 'material': 'Rubber'}",2024-10-29 16:49:49.588806+00:00,
+prod_127,SKU-PROD_127,Harness 127,toys,blue_buffalo,False,"{'size': 'L', 'color': 'Pink', 'material': 'Wood'}",2023-05-22 16:49:49.588812+00:00,
+prod_128,SKU-PROD_128,Toothbrush 128,treats,nylabone,False,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2023-12-25 16:49:49.588818+00:00,
+prod_129,SKU-PROD_129,Treats 129,treats,hills,True,"{'size': 'XS', 'color': 'Black', 'flavor': 'Beef', 'material': 'Plastic'}",2024-04-11 16:49:49.588837+00:00,
+prod_130,SKU-PROD_130,Chew Toy 130,grooming,nylabone,True,"{'size': 'L', 'color': 'Brown', 'material': 'Plastic'}",2023-07-31 16:49:49.588844+00:00,
+prod_131,SKU-PROD_131,Shampoo 131,accessories,purina,True,"{'size': 'L', 'color': 'Red', 'material': 'Metal'}",2023-02-18 16:49:49.588849+00:00,
+prod_132,SKU-PROD_132,Crate 132,grooming,hills,False,"{'size': 'L', 'color': 'Black', 'material': 'Rubber'}",2025-08-05 16:49:49.588855+00:00,
+prod_133,SKU-PROD_133,Toothbrush 133,treats,royal_canin,True,"{'size': 'XS', 'color': 'Brown', 'material': 'Rubber'}",2023-04-08 16:49:49.588861+00:00,2025-09-29 16:49:49.588863+00:00
+prod_134,SKU-PROD_134,Snacks 134,toys,hills,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Fabric'}",2025-04-13 16:49:49.588868+00:00,
+prod_135,SKU-PROD_135,Toothbrush 135,accessories,wellness,True,"{'size': 'M', 'color': 'Green', 'material': 'Plastic'}",2024-11-21 16:49:49.588876+00:00,
+prod_136,SKU-PROD_136,Collar 136,treats,greenies,False,"{'size': 'XS', 'color': 'Green', 'material': 'Metal'}",2023-03-12 16:49:49.588884+00:00,
+prod_137,SKU-PROD_137,Harness 137,grooming,greenies,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Metal'}",2024-03-03 16:49:49.588890+00:00,
+prod_138,SKU-PROD_138,Snacks 138,grooming,nylabone,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2023-08-23 16:49:49.588896+00:00,
+prod_139,SKU-PROD_139,Crate 139,toys,nylabone,True,"{'size': 'L', 'color': 'Red', 'material': 'Metal'}",2023-11-28 16:49:49.588905+00:00,2025-09-29 16:49:49.588907+00:00
+prod_140,SKU-PROD_140,Harness 140,treats,kong,True,"{'size': 'XS', 'color': 'White', 'material': 'Rubber'}",2025-06-28 16:49:49.588912+00:00,
+prod_141,SKU-PROD_141,Leash 141,wellness,royal_canin,False,"{'size': 'M', 'color': 'White', 'material': 'Fabric'}",2023-06-02 16:49:49.588918+00:00,
+prod_142,SKU-PROD_142,Brush 142,accessories,kong,False,"{'size': 'XS', 'color': 'White', 'material': 'Rubber'}",2024-02-13 16:49:49.588923+00:00,
+prod_143,SKU-PROD_143,Brush 143,accessories,greenies,True,"{'size': 'XS', 'color': 'Green', 'material': 'Fabric'}",2023-07-07 16:49:49.588929+00:00,
+prod_144,SKU-PROD_144,Snacks 144,accessories,nylabone,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Fabric'}",2025-03-09 16:49:49.588935+00:00,2025-09-29 16:49:49.588937+00:00
+prod_145,SKU-PROD_145,Toothbrush 145,grooming,kong,True,"{'size': 'M', 'color': 'Green', 'material': 'Plastic'}",2022-12-26 16:49:49.588942+00:00,
+prod_146,SKU-PROD_146,Collar 146,treats,greenies,True,"{'size': 'XS', 'color': 'Black', 'material': 'Rubber'}",2023-10-28 16:49:49.588948+00:00,
+prod_147,SKU-PROD_147,Collar 147,accessories,hills,True,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2023-04-04 16:49:49.588954+00:00,
+prod_148,SKU-PROD_148,Bowl 148,wellness,purina,True,"{'size': 'L', 'color': 'Black', 'material': 'Metal'}",2024-05-15 16:49:49.588960+00:00,
+prod_149,SKU-PROD_149,Toothbrush 149,wellness,wellness,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Metal'}",2023-07-27 16:49:49.588965+00:00,2025-10-10 16:49:49.588968+00:00
+prod_150,SKU-PROD_150,Food 150,treats,greenies,True,"{'size': 'XS', 'color': 'White', 'flavor': 'Turkey', 'material': 'Wood'}",2022-10-26 16:49:49.588973+00:00,
+prod_151,SKU-PROD_151,Leash 151,grooming,nylabone,True,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2023-04-05 16:49:49.588981+00:00,
+prod_152,SKU-PROD_152,Toothbrush 152,treats,royal_canin,False,"{'size': 'XS', 'color': 'Brown', 'material': 'Rubber'}",2022-11-23 16:49:49.588986+00:00,
+prod_153,SKU-PROD_153,Shampoo 153,treats,hills,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Rubber'}",2025-02-26 16:49:49.588992+00:00,
+prod_154,SKU-PROD_154,Treats 154,treats,greenies,False,"{'size': 'M', 'color': 'Green', 'flavor': 'Turkey', 'material': 'Metal'}",2025-09-06 16:49:49.588998+00:00,
+prod_155,SKU-PROD_155,Bed 155,toys,blue_buffalo,True,"{'size': 'S', 'color': 'Brown', 'material': 'Rubber'}",2024-05-18 16:49:49.589006+00:00,
+prod_156,SKU-PROD_156,Bowl 156,toys,kong,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2022-11-28 16:49:49.589012+00:00,
+prod_157,SKU-PROD_157,Collar 157,accessories,wellness,True,"{'size': 'M', 'color': 'Brown', 'material': 'Rubber'}",2024-05-12 16:49:49.589018+00:00,2025-10-10 16:49:49.589020+00:00
+prod_158,SKU-PROD_158,Shampoo 158,toys,purina,False,"{'size': 'XL', 'color': 'Red', 'material': 'Metal'}",2025-06-19 16:49:49.589025+00:00,2025-10-04 16:49:49.589027+00:00
+prod_159,SKU-PROD_159,Toothbrush 159,grooming,kong,True,"{'size': 'XS', 'color': 'White', 'material': 'Plastic'}",2023-11-06 16:49:49.589033+00:00,
+prod_160,SKU-PROD_160,Brush 160,toys,purina,True,"{'size': 'S', 'color': 'Pink', 'material': 'Metal'}",2024-12-14 16:49:49.589039+00:00,
+prod_161,SKU-PROD_161,Snacks 161,wellness,kong,True,"{'size': 'S', 'color': 'Red', 'material': 'Plastic'}",2023-12-10 16:49:49.589044+00:00,
+prod_162,SKU-PROD_162,Tag 162,accessories,hills,True,"{'size': 'M', 'color': 'Red', 'material': 'Plastic'}",2023-09-16 16:49:49.589050+00:00,
+prod_163,SKU-PROD_163,Supplements 163,grooming,blue_buffalo,False,"{'size': 'M', 'color': 'Brown', 'material': 'Metal'}",2023-07-18 16:49:49.589056+00:00,
+prod_164,SKU-PROD_164,Tag 164,treats,royal_canin,False,"{'size': 'M', 'color': 'Black', 'material': 'Rubber'}",2025-04-08 16:49:49.589061+00:00,2025-09-26 16:49:49.589064+00:00
+prod_165,SKU-PROD_165,Brush 165,treats,blue_buffalo,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Fabric'}",2023-12-29 16:49:49.589071+00:00,2025-09-26 16:49:49.589073+00:00
+prod_166,SKU-PROD_166,Harness 166,wellness,greenies,True,"{'size': 'M', 'color': 'Pink', 'material': 'Rubber'}",2023-04-10 16:49:49.589078+00:00,
+prod_167,SKU-PROD_167,Crate 167,toys,nylabone,True,"{'size': 'M', 'color': 'Green', 'material': 'Rubber'}",2023-04-03 16:49:49.589084+00:00,
+prod_168,SKU-PROD_168,Bowl 168,treats,nylabone,True,"{'size': 'M', 'color': 'White', 'material': 'Metal'}",2024-11-06 16:49:49.589092+00:00,2025-10-04 16:49:49.589094+00:00
+prod_169,SKU-PROD_169,Shampoo 169,grooming,royal_canin,True,"{'size': 'XL', 'color': 'Green', 'material': 'Wood'}",2023-06-24 16:49:49.589099+00:00,
+prod_170,SKU-PROD_170,Supplements 170,grooming,wellness,False,"{'size': 'XS', 'color': 'Green', 'material': 'Metal'}",2025-01-18 16:49:49.589104+00:00,
+prod_171,SKU-PROD_171,Bed 171,grooming,royal_canin,True,"{'size': 'XL', 'color': 'Black', 'material': 'Metal'}",2025-01-08 16:49:49.589110+00:00,
+prod_172,SKU-PROD_172,Leash 172,toys,royal_canin,True,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2025-05-07 16:49:49.589116+00:00,
+prod_173,SKU-PROD_173,Leash 173,grooming,greenies,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Rubber'}",2024-12-06 16:49:49.589122+00:00,
+prod_174,SKU-PROD_174,Toothbrush 174,wellness,kong,True,"{'size': 'XL', 'color': 'White', 'material': 'Metal'}",2025-03-24 16:49:49.589131+00:00,
+prod_175,SKU-PROD_175,Tag 175,grooming,hills,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Metal'}",2025-01-03 16:49:49.589137+00:00,
+prod_176,SKU-PROD_176,Harness 176,toys,royal_canin,True,"{'size': 'XL', 'color': 'White', 'material': 'Plastic'}",2024-12-26 16:49:49.589142+00:00,2025-09-29 16:49:49.589145+00:00
+prod_177,SKU-PROD_177,Collar 177,toys,nylabone,True,"{'size': 'M', 'color': 'Green', 'material': 'Plastic'}",2024-06-12 16:49:49.589151+00:00,
+prod_178,SKU-PROD_178,Shampoo 178,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2025-01-03 16:49:49.589160+00:00,
+prod_179,SKU-PROD_179,Leash 179,accessories,nylabone,True,"{'size': 'XL', 'color': 'Green', 'material': 'Plastic'}",2025-06-24 16:49:49.589166+00:00,
+prod_180,SKU-PROD_180,Food 180,toys,kong,True,"{'size': 'S', 'color': 'Brown', 'flavor': 'None', 'material': 'Wood'}",2022-12-02 16:49:49.589172+00:00,
+prod_181,SKU-PROD_181,Bowl 181,grooming,royal_canin,True,"{'size': 'L', 'color': 'Black', 'material': 'Metal'}",2025-05-17 16:49:49.589178+00:00,
+prod_182,SKU-PROD_182,Tag 182,wellness,hills,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Fabric'}",2023-12-16 16:49:49.589183+00:00,
+prod_183,SKU-PROD_183,Collar 183,grooming,hills,True,"{'size': 'M', 'color': 'Blue', 'material': 'Fabric'}",2023-02-04 16:49:49.589190+00:00,
+prod_184,SKU-PROD_184,Bowl 184,grooming,royal_canin,True,"{'size': 'S', 'color': 'Blue', 'material': 'Rubber'}",2023-07-23 16:49:49.589195+00:00,2025-10-08 16:49:49.589198+00:00
+prod_185,SKU-PROD_185,Brush 185,treats,purina,False,"{'size': 'S', 'color': 'Green', 'material': 'Metal'}",2022-11-30 16:49:49.589209+00:00,
+prod_186,SKU-PROD_186,Shampoo 186,wellness,kong,True,"{'size': 'L', 'color': 'Pink', 'material': 'Plastic'}",2023-09-25 16:49:49.589223+00:00,
+prod_187,SKU-PROD_187,Tag 187,toys,blue_buffalo,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Fabric'}",2025-02-08 16:49:49.589236+00:00,2025-10-11 16:49:49.589245+00:00
+prod_188,SKU-PROD_188,Crate 188,grooming,purina,True,"{'size': 'M', 'color': 'Red', 'material': 'Metal'}",2024-08-14 16:49:49.589255+00:00,
+prod_189,SKU-PROD_189,Shampoo 189,accessories,blue_buffalo,True,"{'size': 'L', 'color': 'Pink', 'material': 'Wood'}",2025-01-16 16:49:49.589270+00:00,
+prod_190,SKU-PROD_190,Toothbrush 190,toys,hills,True,"{'size': 'M', 'color': 'White', 'material': 'Plastic'}",2022-11-09 16:49:49.589282+00:00,2025-09-29 16:49:49.589286+00:00
+prod_191,SKU-PROD_191,Treats 191,toys,kong,False,"{'size': 'S', 'color': 'Pink', 'flavor': 'Salmon', 'material': 'Wood'}",2024-11-15 16:49:49.589297+00:00,
+prod_192,SKU-PROD_192,Leash 192,grooming,purina,True,"{'size': 'L', 'color': 'Black', 'material': 'Wood'}",2022-11-13 16:49:49.589303+00:00,2025-09-23 16:49:49.589306+00:00
+prod_193,SKU-PROD_193,Tag 193,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'White', 'material': 'Fabric'}",2023-05-17 16:49:49.589311+00:00,
+prod_194,SKU-PROD_194,Food 194,toys,royal_canin,False,"{'size': 'XL', 'color': 'Yellow', 'flavor': 'None', 'material': 'Rubber'}",2024-10-02 16:49:49.589327+00:00,2025-10-11 16:49:49.589330+00:00
+prod_195,SKU-PROD_195,Supplements 195,treats,kong,True,"{'size': 'S', 'color': 'Red', 'material': 'Metal'}",2023-05-13 16:49:49.589335+00:00,
+prod_196,SKU-PROD_196,Carrier 196,wellness,wellness,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Rubber'}",2022-10-20 16:49:49.589341+00:00,
+prod_197,SKU-PROD_197,Tag 197,accessories,purina,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Fabric'}",2023-02-18 16:49:49.589347+00:00,
+prod_198,SKU-PROD_198,Food 198,accessories,purina,True,"{'size': 'XL', 'color': 'Yellow', 'flavor': 'Turkey', 'material': 'Plastic'}",2024-01-14 16:49:49.589353+00:00,
+prod_199,SKU-PROD_199,Bed 199,grooming,blue_buffalo,True,"{'size': 'L', 'color': 'White', 'material': 'Metal'}",2024-03-05 16:49:49.589359+00:00,
+prod_200,SKU-PROD_200,Crate 200,toys,hills,True,"{'size': 'M', 'color': 'Green', 'material': 'Fabric'}",2024-02-05 16:49:49.589367+00:00,
+prod_201,SKU-PROD_201,Food 201,grooming,royal_canin,True,"{'size': 'L', 'color': 'Yellow', 'flavor': 'Beef', 'material': 'Wood'}",2024-03-09 16:49:49.589373+00:00,
+prod_202,SKU-PROD_202,Bowl 202,toys,wellness,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Plastic'}",2025-02-23 16:49:49.589380+00:00,2025-10-05 16:49:49.589382+00:00
+prod_203,SKU-PROD_203,Collar 203,wellness,nylabone,False,"{'size': 'XS', 'color': 'Green', 'material': 'Metal'}",2023-01-13 16:49:49.589388+00:00,
+prod_204,SKU-PROD_204,Snacks 204,grooming,purina,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Wood'}",2025-07-02 16:49:49.589395+00:00,
+prod_205,SKU-PROD_205,Treats 205,wellness,greenies,True,"{'size': 'L', 'color': 'Green', 'flavor': 'Turkey', 'material': 'Fabric'}",2025-08-29 16:49:49.589402+00:00,
+prod_206,SKU-PROD_206,Brush 206,accessories,nylabone,False,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2024-12-16 16:49:49.589408+00:00,2025-10-07 16:49:49.589410+00:00
+prod_207,SKU-PROD_207,Brush 207,treats,nylabone,True,"{'size': 'S', 'color': 'Pink', 'material': 'Fabric'}",2025-08-19 16:49:49.589416+00:00,
+prod_208,SKU-PROD_208,Leash 208,grooming,wellness,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Metal'}",2025-03-23 16:49:49.589422+00:00,2025-09-24 16:49:49.589424+00:00
+prod_209,SKU-PROD_209,Collar 209,toys,greenies,True,"{'size': 'L', 'color': 'White', 'material': 'Plastic'}",2024-03-31 16:49:49.589429+00:00,2025-10-08 16:49:49.589431+00:00
+prod_210,SKU-PROD_210,Brush 210,wellness,blue_buffalo,True,"{'size': 'M', 'color': 'Red', 'material': 'Fabric'}",2024-05-21 16:49:49.589437+00:00,
+prod_211,SKU-PROD_211,Snacks 211,toys,royal_canin,True,"{'size': 'S', 'color': 'Brown', 'material': 'Wood'}",2025-01-19 16:49:49.589443+00:00,
+prod_212,SKU-PROD_212,Bowl 212,grooming,wellness,False,"{'size': 'S', 'color': 'Pink', 'material': 'Plastic'}",2023-08-13 16:49:49.589449+00:00,2025-09-23 16:49:49.589452+00:00
+prod_213,SKU-PROD_213,Bed 213,accessories,royal_canin,False,"{'size': 'S', 'color': 'Blue', 'material': 'Wood'}",2023-09-07 16:49:49.589460+00:00,
+prod_214,SKU-PROD_214,Treats 214,accessories,nylabone,True,"{'size': 'XL', 'color': 'Yellow', 'flavor': 'None', 'material': 'Wood'}",2024-10-15 16:49:49.589466+00:00,
+prod_215,SKU-PROD_215,Supplements 215,accessories,royal_canin,False,"{'size': 'S', 'color': 'Pink', 'material': 'Rubber'}",2025-05-26 16:49:49.589472+00:00,2025-10-11 16:49:49.589474+00:00
+prod_216,SKU-PROD_216,Harness 216,accessories,hills,False,"{'size': 'XL', 'color': 'Red', 'material': 'Wood'}",2023-12-25 16:49:49.589479+00:00,
+prod_217,SKU-PROD_217,Chew Toy 217,wellness,blue_buffalo,False,"{'size': 'S', 'color': 'Blue', 'material': 'Rubber'}",2023-10-12 16:49:49.589487+00:00,
+prod_218,SKU-PROD_218,Shampoo 218,accessories,kong,False,"{'size': 'L', 'color': 'Red', 'material': 'Fabric'}",2024-09-13 16:49:49.589492+00:00,
+prod_219,SKU-PROD_219,Crate 219,wellness,purina,True,"{'size': 'L', 'color': 'Brown', 'material': 'Metal'}",2024-12-18 16:49:49.589498+00:00,
+prod_220,SKU-PROD_220,Crate 220,toys,greenies,True,"{'size': 'XL', 'color': 'Green', 'material': 'Plastic'}",2025-08-01 16:49:49.589504+00:00,
+prod_221,SKU-PROD_221,Crate 221,wellness,hills,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Metal'}",2024-11-03 16:49:49.589511+00:00,
+prod_222,SKU-PROD_222,Treats 222,treats,nylabone,True,"{'size': 'L', 'color': 'Red', 'flavor': 'None', 'material': 'Plastic'}",2025-05-02 16:49:49.589517+00:00,
+prod_223,SKU-PROD_223,Harness 223,accessories,kong,True,"{'size': 'XL', 'color': 'Red', 'material': 'Plastic'}",2023-06-16 16:49:49.589523+00:00,2025-10-08 16:49:49.589525+00:00
+prod_224,SKU-PROD_224,Treats 224,accessories,wellness,True,"{'size': 'S', 'color': 'Black', 'flavor': 'None', 'material': 'Plastic'}",2023-11-30 16:49:49.589531+00:00,
+prod_225,SKU-PROD_225,Bowl 225,grooming,greenies,True,"{'size': 'L', 'color': 'Black', 'material': 'Fabric'}",2024-09-23 16:49:49.589537+00:00,2025-09-28 16:49:49.589539+00:00
+prod_226,SKU-PROD_226,Toothbrush 226,wellness,kong,False,"{'size': 'L', 'color': 'White', 'material': 'Metal'}",2024-11-15 16:49:49.589545+00:00,
+prod_227,SKU-PROD_227,Tag 227,wellness,greenies,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Fabric'}",2023-02-11 16:49:49.589550+00:00,
+prod_228,SKU-PROD_228,Carrier 228,accessories,hills,True,"{'size': 'XL', 'color': 'Green', 'material': 'Metal'}",2024-04-12 16:49:49.589556+00:00,
+prod_229,SKU-PROD_229,Harness 229,grooming,nylabone,True,"{'size': 'M', 'color': 'Blue', 'material': 'Wood'}",2025-06-03 16:49:49.589562+00:00,
+prod_230,SKU-PROD_230,Shampoo 230,wellness,kong,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Metal'}",2023-11-05 16:49:49.589570+00:00,
+prod_231,SKU-PROD_231,Bed 231,toys,wellness,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Plastic'}",2023-06-27 16:49:49.589576+00:00,
+prod_232,SKU-PROD_232,Snacks 232,accessories,purina,True,"{'size': 'L', 'color': 'Pink', 'material': 'Wood'}",2023-12-25 16:49:49.589584+00:00,
+prod_233,SKU-PROD_233,Harness 233,grooming,royal_canin,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Fabric'}",2023-08-19 16:49:49.589591+00:00,
+prod_234,SKU-PROD_234,Bowl 234,wellness,kong,False,"{'size': 'S', 'color': 'Red', 'material': 'Fabric'}",2024-01-21 16:49:49.589598+00:00,
+prod_235,SKU-PROD_235,Bowl 235,treats,purina,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2024-04-07 16:49:49.589604+00:00,2025-09-22 16:49:49.589606+00:00
+prod_236,SKU-PROD_236,Leash 236,wellness,royal_canin,False,"{'size': 'M', 'color': 'Green', 'material': 'Plastic'}",2024-09-05 16:49:49.589611+00:00,
+prod_237,SKU-PROD_237,Shampoo 237,accessories,kong,True,"{'size': 'XS', 'color': 'Red', 'material': 'Metal'}",2024-05-31 16:49:49.589617+00:00,
+prod_238,SKU-PROD_238,Bed 238,treats,kong,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Fabric'}",2023-01-01 16:49:49.589623+00:00,2025-10-15 16:49:49.589625+00:00
+prod_239,SKU-PROD_239,Chew Toy 239,toys,hills,True,"{'size': 'XS', 'color': 'Black', 'material': 'Wood'}",2025-08-12 16:49:49.589631+00:00,2025-09-20 16:49:49.589633+00:00
+prod_240,SKU-PROD_240,Supplements 240,treats,nylabone,True,"{'size': 'XL', 'color': 'Green', 'material': 'Plastic'}",2024-04-18 16:49:49.589638+00:00,
+prod_241,SKU-PROD_241,Shampoo 241,grooming,hills,True,"{'size': 'M', 'color': 'Brown', 'material': 'Metal'}",2024-06-11 16:49:49.589644+00:00,
+prod_242,SKU-PROD_242,Shampoo 242,toys,kong,False,"{'size': 'L', 'color': 'Brown', 'material': 'Metal'}",2025-05-25 16:49:49.589650+00:00,
+prod_243,SKU-PROD_243,Tag 243,treats,nylabone,True,"{'size': 'L', 'color': 'White', 'material': 'Wood'}",2025-06-21 16:49:49.589655+00:00,
+prod_244,SKU-PROD_244,Food 244,treats,royal_canin,True,"{'size': 'XS', 'color': 'Black', 'flavor': 'Chicken', 'material': 'Wood'}",2024-09-14 16:49:49.589664+00:00,
+prod_245,SKU-PROD_245,Collar 245,toys,wellness,True,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2024-05-12 16:49:49.589670+00:00,2025-09-24 16:49:49.589673+00:00
+prod_246,SKU-PROD_246,Crate 246,accessories,purina,True,"{'size': 'S', 'color': 'Blue', 'material': 'Wood'}",2025-05-30 16:49:49.589678+00:00,
+prod_247,SKU-PROD_247,Shampoo 247,wellness,wellness,True,"{'size': 'M', 'color': 'Brown', 'material': 'Fabric'}",2024-03-06 16:49:49.589686+00:00,2025-09-30 16:49:49.589688+00:00
+prod_248,SKU-PROD_248,Crate 248,treats,purina,False,"{'size': 'L', 'color': 'Green', 'material': 'Wood'}",2025-03-25 16:49:49.589693+00:00,
+prod_249,SKU-PROD_249,Shampoo 249,treats,nylabone,True,"{'size': 'M', 'color': 'Green', 'material': 'Metal'}",2023-07-12 16:49:49.589699+00:00,
+prod_250,SKU-PROD_250,Shampoo 250,grooming,nylabone,True,"{'size': 'XS', 'color': 'Black', 'material': 'Metal'}",2024-03-13 16:49:49.589705+00:00,
+prod_251,SKU-PROD_251,Leash 251,treats,nylabone,False,"{'size': 'L', 'color': 'Pink', 'material': 'Wood'}",2025-02-17 16:49:49.589710+00:00,
+prod_252,SKU-PROD_252,Shampoo 252,toys,purina,True,"{'size': 'XL', 'color': 'White', 'material': 'Metal'}",2024-01-28 16:49:49.589718+00:00,2025-10-03 16:49:49.589720+00:00
+prod_253,SKU-PROD_253,Leash 253,toys,wellness,True,"{'size': 'L', 'color': 'Green', 'material': 'Plastic'}",2024-01-09 16:49:49.589725+00:00,
+prod_254,SKU-PROD_254,Shampoo 254,wellness,greenies,False,"{'size': 'S', 'color': 'Brown', 'material': 'Fabric'}",2024-01-12 16:49:49.589731+00:00,2025-09-20 16:49:49.589733+00:00
+prod_255,SKU-PROD_255,Food 255,toys,purina,True,"{'size': 'S', 'color': 'Yellow', 'flavor': 'Turkey', 'material': 'Metal'}",2024-12-13 16:49:49.589738+00:00,
+prod_256,SKU-PROD_256,Brush 256,toys,hills,False,"{'size': 'XL', 'color': 'Brown', 'material': 'Fabric'}",2023-11-01 16:49:49.589745+00:00,2025-09-19 16:49:49.589748+00:00
+prod_257,SKU-PROD_257,Snacks 257,accessories,greenies,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Metal'}",2024-09-18 16:49:49.589753+00:00,2025-10-05 16:49:49.589756+00:00
+prod_258,SKU-PROD_258,Bowl 258,grooming,royal_canin,False,"{'size': 'M', 'color': 'Brown', 'material': 'Fabric'}",2023-08-31 16:49:49.589761+00:00,
+prod_259,SKU-PROD_259,Leash 259,accessories,wellness,True,"{'size': 'XL', 'color': 'Red', 'material': 'Metal'}",2023-04-03 16:49:49.589767+00:00,
+prod_260,SKU-PROD_260,Tag 260,toys,hills,True,"{'size': 'S', 'color': 'Black', 'material': 'Plastic'}",2024-11-05 16:49:49.589773+00:00,2025-09-20 16:49:49.589776+00:00
+prod_261,SKU-PROD_261,Harness 261,wellness,nylabone,False,"{'size': 'XL', 'color': 'Pink', 'material': 'Wood'}",2022-11-14 16:49:49.589781+00:00,2025-09-28 16:49:49.589783+00:00
+prod_262,SKU-PROD_262,Shampoo 262,toys,purina,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Fabric'}",2025-06-18 16:49:49.589789+00:00,2025-09-21 16:49:49.589791+00:00
+prod_263,SKU-PROD_263,Supplements 263,grooming,hills,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Fabric'}",2022-11-06 16:49:49.589799+00:00,
+prod_264,SKU-PROD_264,Crate 264,wellness,purina,True,"{'size': 'L', 'color': 'Green', 'material': 'Fabric'}",2023-01-02 16:49:49.589805+00:00,
+prod_265,SKU-PROD_265,Shampoo 265,grooming,hills,True,"{'size': 'XS', 'color': 'Green', 'material': 'Fabric'}",2023-10-15 16:49:49.589810+00:00,2025-09-20 16:49:49.589813+00:00
+prod_266,SKU-PROD_266,Toothbrush 266,treats,royal_canin,False,"{'size': 'L', 'color': 'Blue', 'material': 'Metal'}",2023-12-03 16:49:49.589818+00:00,
+prod_267,SKU-PROD_267,Supplements 267,grooming,kong,True,"{'size': 'XS', 'color': 'White', 'material': 'Rubber'}",2024-05-05 16:49:49.589823+00:00,
+prod_268,SKU-PROD_268,Brush 268,accessories,greenies,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Metal'}",2023-06-10 16:49:49.589829+00:00,
+prod_269,SKU-PROD_269,Crate 269,treats,hills,False,"{'size': 'XS', 'color': 'Yellow', 'material': 'Metal'}",2023-07-13 16:49:49.589837+00:00,
+prod_270,SKU-PROD_270,Food 270,treats,wellness,True,"{'size': 'XS', 'color': 'Blue', 'flavor': 'None', 'material': 'Wood'}",2023-08-29 16:49:49.589843+00:00,
+prod_271,SKU-PROD_271,Supplements 271,treats,royal_canin,True,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2023-07-14 16:49:49.589849+00:00,2025-09-27 16:49:49.589851+00:00
+prod_272,SKU-PROD_272,Toothbrush 272,toys,purina,True,"{'size': 'L', 'color': 'Green', 'material': 'Fabric'}",2024-12-16 16:49:49.589858+00:00,
+prod_273,SKU-PROD_273,Snacks 273,toys,wellness,True,"{'size': 'XS', 'color': 'Green', 'material': 'Fabric'}",2022-11-05 16:49:49.589864+00:00,2025-10-02 16:49:49.589866+00:00
+prod_274,SKU-PROD_274,Crate 274,accessories,greenies,True,"{'size': 'L', 'color': 'Green', 'material': 'Metal'}",2024-10-10 16:49:49.589871+00:00,2025-10-06 16:49:49.589873+00:00
+prod_275,SKU-PROD_275,Brush 275,treats,greenies,True,"{'size': 'L', 'color': 'Red', 'material': 'Fabric'}",2022-12-29 16:49:49.589878+00:00,
+prod_276,SKU-PROD_276,Tag 276,treats,hills,False,"{'size': 'L', 'color': 'Pink', 'material': 'Metal'}",2022-12-21 16:49:49.589884+00:00,
+prod_277,SKU-PROD_277,Bowl 277,toys,kong,True,"{'size': 'M', 'color': 'Red', 'material': 'Fabric'}",2024-02-03 16:49:49.589890+00:00,
+prod_278,SKU-PROD_278,Supplements 278,wellness,royal_canin,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Fabric'}",2025-06-23 16:49:49.589896+00:00,2025-09-28 16:49:49.589898+00:00
+prod_279,SKU-PROD_279,Supplements 279,treats,hills,False,"{'size': 'S', 'color': 'Black', 'material': 'Rubber'}",2024-03-27 16:49:49.589904+00:00,
+prod_280,SKU-PROD_280,Supplements 280,toys,royal_canin,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Wood'}",2023-04-24 16:49:49.589910+00:00,
+prod_281,SKU-PROD_281,Bed 281,accessories,greenies,True,"{'size': 'S', 'color': 'Red', 'material': 'Wood'}",2024-02-19 16:49:49.589916+00:00,
+prod_282,SKU-PROD_282,Snacks 282,grooming,blue_buffalo,True,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2024-12-13 16:49:49.589923+00:00,2025-09-16 16:49:49.589926+00:00
+prod_283,SKU-PROD_283,Collar 283,toys,blue_buffalo,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Plastic'}",2024-04-28 16:49:49.589932+00:00,2025-09-30 16:49:49.589934+00:00
+prod_284,SKU-PROD_284,Carrier 284,treats,blue_buffalo,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2023-06-14 16:49:49.589940+00:00,
+prod_285,SKU-PROD_285,Tag 285,grooming,royal_canin,False,"{'size': 'M', 'color': 'Red', 'material': 'Rubber'}",2023-09-14 16:49:49.589946+00:00,
+prod_286,SKU-PROD_286,Bed 286,accessories,hills,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2023-11-25 16:49:49.589952+00:00,
+prod_287,SKU-PROD_287,Tag 287,grooming,greenies,True,"{'size': 'M', 'color': 'Red', 'material': 'Rubber'}",2023-02-18 16:49:49.589958+00:00,
+prod_288,SKU-PROD_288,Harness 288,toys,greenies,True,"{'size': 'L', 'color': 'Red', 'material': 'Metal'}",2024-12-20 16:49:49.589964+00:00,
+prod_289,SKU-PROD_289,Shampoo 289,treats,blue_buffalo,True,"{'size': 'M', 'color': 'Black', 'material': 'Rubber'}",2024-10-13 16:49:49.589970+00:00,
+prod_290,SKU-PROD_290,Bowl 290,wellness,blue_buffalo,True,"{'size': 'L', 'color': 'Blue', 'material': 'Rubber'}",2024-07-06 16:49:49.589976+00:00,2025-10-13 16:49:49.589978+00:00
+prod_291,SKU-PROD_291,Harness 291,treats,wellness,True,"{'size': 'XS', 'color': 'Red', 'material': 'Fabric'}",2023-05-06 16:49:49.589985+00:00,
+prod_292,SKU-PROD_292,Bowl 292,wellness,nylabone,True,"{'size': 'L', 'color': 'Blue', 'material': 'Rubber'}",2023-12-15 16:49:49.589991+00:00,
+prod_293,SKU-PROD_293,Crate 293,grooming,greenies,True,"{'size': 'S', 'color': 'Green', 'material': 'Rubber'}",2024-10-15 16:49:49.589996+00:00,2025-10-04 16:49:49.589999+00:00
+prod_294,SKU-PROD_294,Carrier 294,treats,greenies,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Plastic'}",2025-02-23 16:49:49.590004+00:00,
+prod_295,SKU-PROD_295,Toothbrush 295,toys,hills,True,"{'size': 'L', 'color': 'White', 'material': 'Plastic'}",2024-02-27 16:49:49.590019+00:00,
+prod_296,SKU-PROD_296,Chew Toy 296,treats,blue_buffalo,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2023-07-07 16:49:49.590028+00:00,
+prod_297,SKU-PROD_297,Tag 297,toys,wellness,False,"{'size': 'L', 'color': 'Blue', 'material': 'Plastic'}",2025-04-24 16:49:49.590034+00:00,
+prod_298,SKU-PROD_298,Collar 298,grooming,purina,True,"{'size': 'L', 'color': 'Brown', 'material': 'Fabric'}",2023-01-26 16:49:49.590040+00:00,
+prod_299,SKU-PROD_299,Chew Toy 299,toys,nylabone,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Rubber'}",2023-06-24 16:49:49.590046+00:00,
+prod_300,SKU-PROD_300,Carrier 300,accessories,hills,True,"{'size': 'L', 'color': 'Blue', 'material': 'Wood'}",2024-02-26 16:49:49.590051+00:00,
+prod_301,SKU-PROD_301,Bed 301,grooming,nylabone,True,"{'size': 'S', 'color': 'White', 'material': 'Metal'}",2023-12-21 16:49:49.590057+00:00,2025-09-22 16:49:49.590060+00:00
+prod_302,SKU-PROD_302,Bowl 302,treats,kong,False,"{'size': 'XS', 'color': 'Brown', 'material': 'Rubber'}",2025-05-27 16:49:49.590065+00:00,
+prod_303,SKU-PROD_303,Chew Toy 303,treats,nylabone,False,"{'size': 'S', 'color': 'Red', 'material': 'Plastic'}",2023-10-07 16:49:49.590070+00:00,
+prod_304,SKU-PROD_304,Collar 304,treats,purina,True,"{'size': 'M', 'color': 'Blue', 'material': 'Rubber'}",2023-04-21 16:49:49.590076+00:00,
+prod_305,SKU-PROD_305,Food 305,accessories,nylabone,True,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Chicken', 'material': 'Metal'}",2025-05-26 16:49:49.590082+00:00,2025-09-18 16:49:49.590093+00:00
+prod_306,SKU-PROD_306,Toothbrush 306,accessories,greenies,True,"{'size': 'S', 'color': 'Black', 'material': 'Rubber'}",2024-06-06 16:49:49.590098+00:00,
+prod_307,SKU-PROD_307,Bowl 307,toys,kong,False,"{'size': 'XS', 'color': 'Pink', 'material': 'Fabric'}",2024-11-13 16:49:49.590104+00:00,
+prod_308,SKU-PROD_308,Bowl 308,toys,hills,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Metal'}",2024-03-10 16:49:49.590110+00:00,
+prod_309,SKU-PROD_309,Supplements 309,accessories,purina,True,"{'size': 'XL', 'color': 'Red', 'material': 'Plastic'}",2022-10-26 16:49:49.590118+00:00,
+prod_310,SKU-PROD_310,Harness 310,wellness,nylabone,True,"{'size': 'M', 'color': 'Black', 'material': 'Fabric'}",2023-02-24 16:49:49.590124+00:00,
+prod_311,SKU-PROD_311,Snacks 311,grooming,wellness,True,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2023-02-09 16:49:49.590132+00:00,
+prod_312,SKU-PROD_312,Bed 312,accessories,royal_canin,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Plastic'}",2023-05-31 16:49:49.590138+00:00,
+prod_313,SKU-PROD_313,Chew Toy 313,treats,purina,True,"{'size': 'M', 'color': 'Red', 'material': 'Metal'}",2025-02-16 16:49:49.590144+00:00,
+prod_314,SKU-PROD_314,Carrier 314,accessories,wellness,True,"{'size': 'L', 'color': 'Red', 'material': 'Plastic'}",2025-03-10 16:49:49.590149+00:00,
+prod_315,SKU-PROD_315,Toothbrush 315,treats,hills,True,"{'size': 'L', 'color': 'Blue', 'material': 'Wood'}",2022-11-16 16:49:49.590155+00:00,
+prod_316,SKU-PROD_316,Treats 316,wellness,nylabone,True,"{'size': 'L', 'color': 'Yellow', 'flavor': 'Beef', 'material': 'Fabric'}",2023-12-11 16:49:49.590161+00:00,2025-09-23 16:49:49.590163+00:00
+prod_317,SKU-PROD_317,Harness 317,grooming,purina,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Rubber'}",2024-12-12 16:49:49.590168+00:00,
+prod_318,SKU-PROD_318,Leash 318,treats,nylabone,False,"{'size': 'L', 'color': 'Pink', 'material': 'Fabric'}",2025-01-12 16:49:49.590174+00:00,
+prod_319,SKU-PROD_319,Snacks 319,treats,royal_canin,True,"{'size': 'L', 'color': 'Black', 'material': 'Rubber'}",2024-10-29 16:49:49.590180+00:00,
+prod_320,SKU-PROD_320,Bed 320,accessories,kong,True,"{'size': 'M', 'color': 'Green', 'material': 'Rubber'}",2023-09-19 16:49:49.590186+00:00,2025-09-29 16:49:49.590189+00:00
+prod_321,SKU-PROD_321,Food 321,toys,blue_buffalo,True,"{'size': 'S', 'color': 'Brown', 'flavor': 'Chicken', 'material': 'Metal'}",2025-03-07 16:49:49.590194+00:00,2025-10-12 16:49:49.590197+00:00
+prod_322,SKU-PROD_322,Chew Toy 322,treats,nylabone,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Plastic'}",2023-06-19 16:49:49.590204+00:00,
+prod_323,SKU-PROD_323,Shampoo 323,toys,blue_buffalo,False,"{'size': 'XS', 'color': 'Blue', 'material': 'Plastic'}",2024-12-27 16:49:49.590210+00:00,
+prod_324,SKU-PROD_324,Treats 324,grooming,nylabone,False,"{'size': 'L', 'color': 'Green', 'flavor': 'Chicken', 'material': 'Wood'}",2023-07-01 16:49:49.590216+00:00,2025-10-15 16:49:49.590218+00:00
+prod_325,SKU-PROD_325,Leash 325,wellness,hills,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Plastic'}",2024-02-21 16:49:49.590224+00:00,2025-09-17 16:49:49.590226+00:00
+prod_326,SKU-PROD_326,Bowl 326,treats,kong,False,"{'size': 'M', 'color': 'Pink', 'material': 'Metal'}",2025-05-15 16:49:49.590231+00:00,
+prod_327,SKU-PROD_327,Collar 327,grooming,hills,True,"{'size': 'L', 'color': 'Yellow', 'material': 'Wood'}",2025-08-08 16:49:49.590238+00:00,2025-09-20 16:49:49.590241+00:00
+prod_328,SKU-PROD_328,Tag 328,grooming,royal_canin,True,"{'size': 'M', 'color': 'White', 'material': 'Metal'}",2024-09-13 16:49:49.590246+00:00,
+prod_329,SKU-PROD_329,Chew Toy 329,grooming,wellness,True,"{'size': 'M', 'color': 'Red', 'material': 'Metal'}",2024-05-28 16:49:49.590252+00:00,
+prod_330,SKU-PROD_330,Bowl 330,toys,wellness,False,"{'size': 'M', 'color': 'Red', 'material': 'Plastic'}",2023-09-21 16:49:49.590261+00:00,
+prod_331,SKU-PROD_331,Brush 331,treats,wellness,True,"{'size': 'M', 'color': 'Red', 'material': 'Fabric'}",2024-08-27 16:49:49.590267+00:00,2025-09-28 16:49:49.590269+00:00
+prod_332,SKU-PROD_332,Tag 332,grooming,greenies,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Rubber'}",2024-06-25 16:49:49.590274+00:00,
+prod_333,SKU-PROD_333,Chew Toy 333,accessories,royal_canin,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Plastic'}",2024-09-18 16:49:49.590280+00:00,
+prod_334,SKU-PROD_334,Collar 334,toys,kong,True,"{'size': 'XL', 'color': 'Green', 'material': 'Rubber'}",2025-04-21 16:49:49.590286+00:00,
+prod_335,SKU-PROD_335,Brush 335,wellness,nylabone,True,"{'size': 'M', 'color': 'White', 'material': 'Plastic'}",2023-04-06 16:49:49.590293+00:00,2025-09-25 16:49:49.590296+00:00
+prod_336,SKU-PROD_336,Toothbrush 336,grooming,greenies,True,"{'size': 'S', 'color': 'Green', 'material': 'Metal'}",2024-01-22 16:49:49.590301+00:00,
+prod_337,SKU-PROD_337,Crate 337,treats,kong,True,"{'size': 'XL', 'color': 'Red', 'material': 'Plastic'}",2024-06-21 16:49:49.590307+00:00,
+prod_338,SKU-PROD_338,Brush 338,wellness,greenies,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Fabric'}",2024-10-08 16:49:49.590313+00:00,
+prod_339,SKU-PROD_339,Chew Toy 339,grooming,royal_canin,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Plastic'}",2023-09-30 16:49:49.590319+00:00,
+prod_340,SKU-PROD_340,Treats 340,toys,kong,False,"{'size': 'L', 'color': 'Brown', 'flavor': 'Turkey', 'material': 'Plastic'}",2022-12-12 16:49:49.590325+00:00,2025-10-04 16:49:49.590327+00:00
+prod_341,SKU-PROD_341,Supplements 341,accessories,hills,False,"{'size': 'L', 'color': 'Yellow', 'material': 'Plastic'}",2025-04-19 16:49:49.590332+00:00,
+prod_342,SKU-PROD_342,Brush 342,grooming,kong,True,"{'size': 'M', 'color': 'Blue', 'material': 'Rubber'}",2024-10-03 16:49:49.590338+00:00,2025-10-10 16:49:49.590340+00:00
+prod_343,SKU-PROD_343,Brush 343,toys,nylabone,False,"{'size': 'XL', 'color': 'Pink', 'material': 'Rubber'}",2024-10-14 16:49:49.590345+00:00,2025-10-10 16:49:49.590348+00:00
+prod_344,SKU-PROD_344,Brush 344,toys,nylabone,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Metal'}",2024-02-18 16:49:49.590353+00:00,
+prod_345,SKU-PROD_345,Treats 345,treats,nylabone,True,"{'size': 'L', 'color': 'Pink', 'flavor': 'None', 'material': 'Plastic'}",2023-09-09 16:49:49.590359+00:00,
+prod_346,SKU-PROD_346,Snacks 346,wellness,nylabone,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Plastic'}",2025-07-26 16:49:49.590364+00:00,
+prod_347,SKU-PROD_347,Shampoo 347,treats,blue_buffalo,False,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2023-01-26 16:49:49.590370+00:00,2025-09-17 16:49:49.590372+00:00
+prod_348,SKU-PROD_348,Crate 348,grooming,nylabone,True,"{'size': 'S', 'color': 'White', 'material': 'Metal'}",2024-08-30 16:49:49.590379+00:00,2025-10-14 16:49:49.590381+00:00
+prod_349,SKU-PROD_349,Harness 349,grooming,royal_canin,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Fabric'}",2024-11-11 16:49:49.590386+00:00,
+prod_350,SKU-PROD_350,Carrier 350,toys,purina,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Wood'}",2023-07-17 16:49:49.590393+00:00,2025-09-28 16:49:49.590396+00:00
+prod_351,SKU-PROD_351,Tag 351,wellness,wellness,True,"{'size': 'M', 'color': 'Blue', 'material': 'Metal'}",2022-11-23 16:49:49.590401+00:00,
+prod_352,SKU-PROD_352,Leash 352,toys,royal_canin,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Plastic'}",2025-06-21 16:49:49.590407+00:00,2025-10-13 16:49:49.590409+00:00
+prod_353,SKU-PROD_353,Collar 353,wellness,wellness,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2025-03-22 16:49:49.590415+00:00,2025-09-28 16:49:49.590417+00:00
+prod_354,SKU-PROD_354,Food 354,wellness,purina,False,"{'size': 'XL', 'color': 'Red', 'flavor': 'Turkey', 'material': 'Wood'}",2025-01-29 16:49:49.590423+00:00,2025-10-11 16:49:49.590426+00:00
+prod_355,SKU-PROD_355,Supplements 355,treats,nylabone,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Fabric'}",2023-05-29 16:49:49.590432+00:00,
+prod_356,SKU-PROD_356,Tag 356,wellness,royal_canin,False,"{'size': 'XS', 'color': 'Green', 'material': 'Fabric'}",2024-11-26 16:49:49.590437+00:00,2025-10-14 16:49:49.590440+00:00
+prod_357,SKU-PROD_357,Bowl 357,wellness,purina,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Fabric'}",2025-08-06 16:49:49.590445+00:00,
+prod_358,SKU-PROD_358,Food 358,grooming,blue_buffalo,True,"{'size': 'L', 'color': 'Yellow', 'flavor': 'Chicken', 'material': 'Plastic'}",2023-03-24 16:49:49.590451+00:00,
+prod_359,SKU-PROD_359,Shampoo 359,grooming,hills,False,"{'size': 'S', 'color': 'Pink', 'material': 'Plastic'}",2022-12-29 16:49:49.590458+00:00,
+prod_360,SKU-PROD_360,Shampoo 360,toys,greenies,True,"{'size': 'M', 'color': 'Brown', 'material': 'Plastic'}",2024-09-26 16:49:49.590464+00:00,
+prod_361,SKU-PROD_361,Bowl 361,treats,kong,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Rubber'}",2024-08-05 16:49:49.590471+00:00,
+prod_362,SKU-PROD_362,Crate 362,grooming,royal_canin,True,"{'size': 'XS', 'color': 'Red', 'material': 'Plastic'}",2022-12-20 16:49:49.590478+00:00,2025-10-10 16:49:49.590480+00:00
+prod_363,SKU-PROD_363,Toothbrush 363,wellness,purina,True,"{'size': 'S', 'color': 'Black', 'material': 'Rubber'}",2025-07-22 16:49:49.590485+00:00,2025-10-14 16:49:49.590487+00:00
+prod_364,SKU-PROD_364,Bowl 364,treats,wellness,False,"{'size': 'S', 'color': 'Yellow', 'material': 'Fabric'}",2022-10-31 16:49:49.590495+00:00,
+prod_365,SKU-PROD_365,Collar 365,toys,royal_canin,True,"{'size': 'S', 'color': 'Red', 'material': 'Plastic'}",2023-12-31 16:49:49.590501+00:00,
+prod_366,SKU-PROD_366,Toothbrush 366,wellness,hills,False,"{'size': 'L', 'color': 'Black', 'material': 'Plastic'}",2024-01-07 16:49:49.590507+00:00,2025-09-27 16:49:49.590509+00:00
+prod_367,SKU-PROD_367,Toothbrush 367,toys,kong,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2023-01-04 16:49:49.590514+00:00,
+prod_368,SKU-PROD_368,Brush 368,grooming,blue_buffalo,True,"{'size': 'M', 'color': 'Black', 'material': 'Fabric'}",2024-11-13 16:49:49.590520+00:00,
+prod_369,SKU-PROD_369,Brush 369,toys,hills,True,"{'size': 'S', 'color': 'Red', 'material': 'Metal'}",2024-04-03 16:49:49.590542+00:00,2025-10-03 16:49:49.590544+00:00
+prod_370,SKU-PROD_370,Bed 370,wellness,kong,False,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2023-09-13 16:49:49.590550+00:00,
+prod_371,SKU-PROD_371,Snacks 371,treats,greenies,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Plastic'}",2024-09-07 16:49:49.590556+00:00,
+prod_372,SKU-PROD_372,Toothbrush 372,toys,wellness,True,"{'size': 'S', 'color': 'Black', 'material': 'Metal'}",2023-08-17 16:49:49.590562+00:00,
+prod_373,SKU-PROD_373,Harness 373,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Rubber'}",2023-01-23 16:49:49.590568+00:00,
+prod_374,SKU-PROD_374,Crate 374,accessories,nylabone,True,"{'size': 'XL', 'color': 'Black', 'material': 'Metal'}",2024-11-12 16:49:49.590575+00:00,
+prod_375,SKU-PROD_375,Carrier 375,treats,purina,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Plastic'}",2024-09-12 16:49:49.590581+00:00,
+prod_376,SKU-PROD_376,Leash 376,wellness,purina,False,"{'size': 'M', 'color': 'Red', 'material': 'Rubber'}",2024-03-05 16:49:49.590586+00:00,
+prod_377,SKU-PROD_377,Tag 377,treats,greenies,False,"{'size': 'XS', 'color': 'Green', 'material': 'Wood'}",2023-04-21 16:49:49.590592+00:00,2025-10-02 16:49:49.590595+00:00
+prod_378,SKU-PROD_378,Chew Toy 378,wellness,hills,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Fabric'}",2023-11-27 16:49:49.590600+00:00,
+prod_379,SKU-PROD_379,Bowl 379,toys,kong,True,"{'size': 'S', 'color': 'White', 'material': 'Fabric'}",2025-02-18 16:49:49.590606+00:00,2025-09-29 16:49:49.590608+00:00
+prod_380,SKU-PROD_380,Leash 380,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'Red', 'material': 'Fabric'}",2023-02-26 16:49:49.590613+00:00,
+prod_381,SKU-PROD_381,Brush 381,wellness,greenies,True,"{'size': 'L', 'color': 'White', 'material': 'Plastic'}",2023-06-13 16:49:49.590619+00:00,
+prod_382,SKU-PROD_382,Collar 382,treats,wellness,True,"{'size': 'S', 'color': 'Red', 'material': 'Wood'}",2025-01-07 16:49:49.590625+00:00,
+prod_383,SKU-PROD_383,Food 383,toys,hills,True,"{'size': 'XL', 'color': 'Red', 'flavor': 'None', 'material': 'Wood'}",2025-02-07 16:49:49.590631+00:00,
+prod_384,SKU-PROD_384,Carrier 384,toys,nylabone,True,"{'size': 'L', 'color': 'Brown', 'material': 'Rubber'}",2023-01-19 16:49:49.590636+00:00,
+prod_385,SKU-PROD_385,Snacks 385,treats,kong,True,"{'size': 'L', 'color': 'Blue', 'material': 'Wood'}",2024-12-10 16:49:49.590642+00:00,2025-09-19 16:49:49.590644+00:00
+prod_386,SKU-PROD_386,Snacks 386,toys,nylabone,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Metal'}",2024-08-03 16:49:49.590650+00:00,
+prod_387,SKU-PROD_387,Toothbrush 387,accessories,wellness,True,"{'size': 'L', 'color': 'Black', 'material': 'Plastic'}",2022-12-05 16:49:49.590657+00:00,
+prod_388,SKU-PROD_388,Bowl 388,wellness,purina,True,"{'size': 'XS', 'color': 'Red', 'material': 'Rubber'}",2022-12-10 16:49:49.590663+00:00,
+prod_389,SKU-PROD_389,Supplements 389,toys,nylabone,True,"{'size': 'M', 'color': 'Yellow', 'material': 'Metal'}",2024-03-25 16:49:49.590671+00:00,2025-10-14 16:49:49.590673+00:00
+prod_390,SKU-PROD_390,Treats 390,toys,greenies,True,"{'size': 'M', 'color': 'White', 'flavor': 'Salmon', 'material': 'Metal'}",2025-03-06 16:49:49.590681+00:00,
+prod_391,SKU-PROD_391,Leash 391,toys,greenies,True,"{'size': 'M', 'color': 'White', 'material': 'Metal'}",2025-03-10 16:49:49.590687+00:00,
+prod_392,SKU-PROD_392,Supplements 392,grooming,greenies,True,"{'size': 'L', 'color': 'Brown', 'material': 'Metal'}",2023-07-20 16:49:49.590693+00:00,2025-09-20 16:49:49.590695+00:00
+prod_393,SKU-PROD_393,Supplements 393,wellness,greenies,True,"{'size': 'S', 'color': 'Red', 'material': 'Plastic'}",2023-05-18 16:49:49.590700+00:00,2025-09-20 16:49:49.590703+00:00
+prod_394,SKU-PROD_394,Leash 394,accessories,royal_canin,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Fabric'}",2024-12-23 16:49:49.590708+00:00,2025-09-16 16:49:49.590711+00:00
+prod_395,SKU-PROD_395,Carrier 395,wellness,nylabone,True,"{'size': 'L', 'color': 'Red', 'material': 'Rubber'}",2023-12-13 16:49:49.590716+00:00,
+prod_396,SKU-PROD_396,Brush 396,accessories,wellness,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Metal'}",2023-01-04 16:49:49.590722+00:00,
+prod_397,SKU-PROD_397,Treats 397,wellness,greenies,True,"{'size': 'XS', 'color': 'Pink', 'flavor': 'Beef', 'material': 'Metal'}",2025-04-16 16:49:49.590728+00:00,2025-10-05 16:49:49.590731+00:00
+prod_398,SKU-PROD_398,Food 398,treats,purina,False,"{'size': 'XS', 'color': 'Yellow', 'flavor': 'None', 'material': 'Wood'}",2023-06-14 16:49:49.590736+00:00,
+prod_399,SKU-PROD_399,Harness 399,toys,royal_canin,False,"{'size': 'XL', 'color': 'Pink', 'material': 'Rubber'}",2023-03-16 16:49:49.590742+00:00,
+prod_400,SKU-PROD_400,Chew Toy 400,toys,royal_canin,True,"{'size': 'XS', 'color': 'Brown', 'material': 'Metal'}",2025-09-16 16:49:49.590750+00:00,
+prod_401,SKU-PROD_401,Bed 401,accessories,blue_buffalo,True,"{'size': 'L', 'color': 'White', 'material': 'Fabric'}",2024-06-17 16:49:49.590756+00:00,2025-10-05 16:49:49.590758+00:00
+prod_402,SKU-PROD_402,Toothbrush 402,accessories,royal_canin,True,"{'size': 'L', 'color': 'Blue', 'material': 'Rubber'}",2025-09-12 16:49:49.590764+00:00,
+prod_403,SKU-PROD_403,Toothbrush 403,grooming,blue_buffalo,False,"{'size': 'XS', 'color': 'Red', 'material': 'Plastic'}",2024-12-03 16:49:49.590770+00:00,2025-10-12 16:49:49.590772+00:00
+prod_404,SKU-PROD_404,Bed 404,grooming,wellness,False,"{'size': 'XS', 'color': 'Brown', 'material': 'Plastic'}",2024-08-22 16:49:49.590778+00:00,
+prod_405,SKU-PROD_405,Treats 405,toys,hills,True,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Chicken', 'material': 'Metal'}",2022-11-30 16:49:49.590784+00:00,
+prod_406,SKU-PROD_406,Carrier 406,accessories,kong,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Wood'}",2024-09-26 16:49:49.590790+00:00,
+prod_407,SKU-PROD_407,Brush 407,toys,hills,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Metal'}",2024-03-05 16:49:49.590796+00:00,2025-10-05 16:49:49.590798+00:00
+prod_408,SKU-PROD_408,Collar 408,grooming,royal_canin,True,"{'size': 'S', 'color': 'Brown', 'material': 'Wood'}",2023-12-14 16:49:49.590805+00:00,
+prod_409,SKU-PROD_409,Snacks 409,treats,wellness,True,"{'size': 'M', 'color': 'Green', 'material': 'Plastic'}",2025-01-23 16:49:49.590812+00:00,
+prod_410,SKU-PROD_410,Carrier 410,accessories,royal_canin,True,"{'size': 'XL', 'color': 'Black', 'material': 'Metal'}",2025-02-10 16:49:49.590817+00:00,
+prod_411,SKU-PROD_411,Treats 411,wellness,greenies,True,"{'size': 'XS', 'color': 'Black', 'flavor': 'Beef', 'material': 'Plastic'}",2024-04-21 16:49:49.590823+00:00,
+prod_412,SKU-PROD_412,Bed 412,toys,blue_buffalo,False,"{'size': 'XL', 'color': 'Red', 'material': 'Fabric'}",2025-02-19 16:49:49.590829+00:00,
+prod_413,SKU-PROD_413,Bowl 413,accessories,hills,False,"{'size': 'XL', 'color': 'Black', 'material': 'Rubber'}",2023-07-16 16:49:49.590837+00:00,2025-09-20 16:49:49.590839+00:00
+prod_414,SKU-PROD_414,Chew Toy 414,grooming,kong,False,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2024-06-12 16:49:49.590845+00:00,
+prod_415,SKU-PROD_415,Bed 415,accessories,wellness,True,"{'size': 'M', 'color': 'Pink', 'material': 'Plastic'}",2024-08-30 16:49:49.590851+00:00,
+prod_416,SKU-PROD_416,Crate 416,accessories,nylabone,True,"{'size': 'XS', 'color': 'Brown', 'material': 'Fabric'}",2024-12-24 16:49:49.590857+00:00,
+prod_417,SKU-PROD_417,Chew Toy 417,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Pink', 'material': 'Plastic'}",2024-11-06 16:49:49.590862+00:00,
+prod_418,SKU-PROD_418,Snacks 418,accessories,kong,True,"{'size': 'L', 'color': 'White', 'material': 'Rubber'}",2024-06-23 16:49:49.590868+00:00,
+prod_419,SKU-PROD_419,Leash 419,accessories,nylabone,True,"{'size': 'L', 'color': 'Brown', 'material': 'Rubber'}",2024-06-20 16:49:49.590874+00:00,
+prod_420,SKU-PROD_420,Toothbrush 420,grooming,purina,False,"{'size': 'M', 'color': 'Yellow', 'material': 'Wood'}",2025-08-29 16:49:49.590879+00:00,
+prod_421,SKU-PROD_421,Bowl 421,grooming,royal_canin,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Rubber'}",2023-07-28 16:49:49.590886+00:00,
+prod_422,SKU-PROD_422,Snacks 422,wellness,blue_buffalo,False,"{'size': 'XS', 'color': 'White', 'material': 'Wood'}",2022-12-25 16:49:49.590894+00:00,
+prod_423,SKU-PROD_423,Brush 423,grooming,wellness,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Rubber'}",2025-09-01 16:49:49.590899+00:00,
+prod_424,SKU-PROD_424,Carrier 424,treats,wellness,False,"{'size': 'XS', 'color': 'Yellow', 'material': 'Wood'}",2025-04-22 16:49:49.590906+00:00,
+prod_425,SKU-PROD_425,Brush 425,toys,royal_canin,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Rubber'}",2024-09-17 16:49:49.590912+00:00,
+prod_426,SKU-PROD_426,Bowl 426,accessories,nylabone,False,"{'size': 'M', 'color': 'Brown', 'material': 'Metal'}",2023-06-11 16:49:49.590919+00:00,2025-10-05 16:49:49.590921+00:00
+prod_427,SKU-PROD_427,Supplements 427,toys,hills,True,"{'size': 'XL', 'color': 'Red', 'material': 'Wood'}",2025-06-15 16:49:49.590927+00:00,
+prod_428,SKU-PROD_428,Snacks 428,grooming,nylabone,False,"{'size': 'M', 'color': 'Blue', 'material': 'Fabric'}",2023-07-28 16:49:49.590935+00:00,2025-09-19 16:49:49.590940+00:00
+prod_429,SKU-PROD_429,Leash 429,toys,royal_canin,False,"{'size': 'XL', 'color': 'Yellow', 'material': 'Plastic'}",2024-01-21 16:49:49.590946+00:00,
+prod_430,SKU-PROD_430,Chew Toy 430,grooming,purina,True,"{'size': 'XL', 'color': 'Green', 'material': 'Rubber'}",2025-09-06 16:49:49.590953+00:00,2025-09-28 16:49:49.590955+00:00
+prod_431,SKU-PROD_431,Snacks 431,accessories,nylabone,False,"{'size': 'S', 'color': 'White', 'material': 'Plastic'}",2022-11-02 16:49:49.590961+00:00,
+prod_432,SKU-PROD_432,Bowl 432,treats,greenies,True,"{'size': 'XL', 'color': 'Black', 'material': 'Plastic'}",2024-09-10 16:49:49.590967+00:00,
+prod_433,SKU-PROD_433,Shampoo 433,accessories,royal_canin,True,"{'size': 'M', 'color': 'Blue', 'material': 'Fabric'}",2024-08-08 16:49:49.590973+00:00,2025-10-05 16:49:49.590975+00:00
+prod_434,SKU-PROD_434,Bowl 434,grooming,greenies,True,"{'size': 'XS', 'color': 'Black', 'material': 'Wood'}",2024-08-16 16:49:49.590980+00:00,
+prod_435,SKU-PROD_435,Brush 435,wellness,royal_canin,True,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2023-09-01 16:49:49.590986+00:00,
+prod_436,SKU-PROD_436,Chew Toy 436,wellness,greenies,False,"{'size': 'M', 'color': 'Yellow', 'material': 'Plastic'}",2024-02-28 16:49:49.590992+00:00,
+prod_437,SKU-PROD_437,Tag 437,treats,purina,True,"{'size': 'L', 'color': 'Pink', 'material': 'Fabric'}",2022-12-24 16:49:49.590999+00:00,
+prod_438,SKU-PROD_438,Food 438,treats,nylabone,True,"{'size': 'S', 'color': 'Yellow', 'flavor': 'None', 'material': 'Fabric'}",2025-04-15 16:49:49.591005+00:00,
+prod_439,SKU-PROD_439,Crate 439,accessories,kong,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Rubber'}",2023-01-24 16:49:49.591013+00:00,
+prod_440,SKU-PROD_440,Bowl 440,grooming,hills,False,"{'size': 'XL', 'color': 'Black', 'material': 'Plastic'}",2022-11-25 16:49:49.591020+00:00,
+prod_441,SKU-PROD_441,Chew Toy 441,wellness,purina,True,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2023-03-18 16:49:49.591025+00:00,
+prod_442,SKU-PROD_442,Tag 442,treats,greenies,False,"{'size': 'M', 'color': 'Red', 'material': 'Plastic'}",2024-05-30 16:49:49.591032+00:00,
+prod_443,SKU-PROD_443,Bowl 443,grooming,purina,True,"{'size': 'XS', 'color': 'Yellow', 'material': 'Wood'}",2023-07-15 16:49:49.591037+00:00,2025-09-16 16:49:49.591039+00:00
+prod_444,SKU-PROD_444,Treats 444,wellness,kong,True,"{'size': 'M', 'color': 'Black', 'flavor': 'Chicken', 'material': 'Fabric'}",2023-08-07 16:49:49.591045+00:00,2025-10-04 16:49:49.591048+00:00
+prod_445,SKU-PROD_445,Food 445,accessories,nylabone,True,"{'size': 'L', 'color': 'Brown', 'flavor': 'Beef', 'material': 'Fabric'}",2022-12-24 16:49:49.591054+00:00,2025-09-17 16:49:49.591056+00:00
+prod_446,SKU-PROD_446,Collar 446,accessories,kong,True,"{'size': 'L', 'color': 'Green', 'material': 'Plastic'}",2022-10-29 16:49:49.591061+00:00,
+prod_447,SKU-PROD_447,Leash 447,treats,greenies,True,"{'size': 'S', 'color': 'White', 'material': 'Wood'}",2024-06-02 16:49:49.591069+00:00,2025-09-20 16:49:49.591071+00:00
+prod_448,SKU-PROD_448,Tag 448,grooming,nylabone,True,"{'size': 'L', 'color': 'Pink', 'material': 'Plastic'}",2023-05-29 16:49:49.591076+00:00,
+prod_449,SKU-PROD_449,Collar 449,treats,kong,True,"{'size': 'XL', 'color': 'Green', 'material': 'Plastic'}",2024-11-20 16:49:49.591082+00:00,
+prod_450,SKU-PROD_450,Leash 450,treats,blue_buffalo,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Wood'}",2024-02-14 16:49:49.591088+00:00,
+prod_451,SKU-PROD_451,Tag 451,treats,royal_canin,False,"{'size': 'L', 'color': 'Green', 'material': 'Plastic'}",2024-11-28 16:49:49.591094+00:00,
+prod_452,SKU-PROD_452,Leash 452,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2024-06-03 16:49:49.591101+00:00,2025-10-03 16:49:49.591103+00:00
+prod_453,SKU-PROD_453,Chew Toy 453,treats,nylabone,True,"{'size': 'S', 'color': 'Brown', 'material': 'Plastic'}",2024-09-18 16:49:49.591109+00:00,2025-09-17 16:49:49.591111+00:00
+prod_454,SKU-PROD_454,Supplements 454,accessories,kong,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Plastic'}",2023-04-17 16:49:49.591118+00:00,2025-10-04 16:49:49.591121+00:00
+prod_455,SKU-PROD_455,Bowl 455,toys,hills,True,"{'size': 'L', 'color': 'Brown', 'material': 'Fabric'}",2023-04-29 16:49:49.591127+00:00,
+prod_456,SKU-PROD_456,Bowl 456,grooming,royal_canin,False,"{'size': 'XS', 'color': 'Black', 'material': 'Wood'}",2024-04-07 16:49:49.591132+00:00,
+prod_457,SKU-PROD_457,Supplements 457,toys,kong,True,"{'size': 'XL', 'color': 'Red', 'material': 'Metal'}",2023-12-10 16:49:49.591138+00:00,2025-10-04 16:49:49.591140+00:00
+prod_458,SKU-PROD_458,Carrier 458,toys,greenies,False,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2023-08-30 16:49:49.591146+00:00,
+prod_459,SKU-PROD_459,Carrier 459,wellness,wellness,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Plastic'}",2022-12-31 16:49:49.591151+00:00,
+prod_460,SKU-PROD_460,Crate 460,grooming,purina,False,"{'size': 'S', 'color': 'Blue', 'material': 'Plastic'}",2024-10-20 16:49:49.591158+00:00,
+prod_461,SKU-PROD_461,Brush 461,treats,hills,False,"{'size': 'XL', 'color': 'Red', 'material': 'Plastic'}",2025-09-06 16:49:49.591164+00:00,
+prod_462,SKU-PROD_462,Carrier 462,treats,royal_canin,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Fabric'}",2023-08-19 16:49:49.591170+00:00,
+prod_463,SKU-PROD_463,Crate 463,accessories,kong,True,"{'size': 'L', 'color': 'Black', 'material': 'Wood'}",2024-09-23 16:49:49.591176+00:00,2025-10-01 16:49:49.591178+00:00
+prod_464,SKU-PROD_464,Snacks 464,toys,wellness,True,"{'size': 'S', 'color': 'Red', 'material': 'Wood'}",2024-10-04 16:49:49.591184+00:00,
+prod_465,SKU-PROD_465,Chew Toy 465,grooming,wellness,False,"{'size': 'S', 'color': 'Blue', 'material': 'Fabric'}",2023-09-24 16:49:49.591191+00:00,2025-10-03 16:49:49.591226+00:00
+prod_466,SKU-PROD_466,Chew Toy 466,accessories,wellness,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Wood'}",2023-10-05 16:49:49.591231+00:00,
+prod_467,SKU-PROD_467,Bed 467,grooming,wellness,True,"{'size': 'L', 'color': 'Brown', 'material': 'Wood'}",2024-03-31 16:49:49.591253+00:00,
+prod_468,SKU-PROD_468,Shampoo 468,wellness,nylabone,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2022-10-31 16:49:49.591259+00:00,
+prod_469,SKU-PROD_469,Harness 469,accessories,blue_buffalo,True,"{'size': 'L', 'color': 'Pink', 'material': 'Plastic'}",2023-02-20 16:49:49.591268+00:00,2025-09-17 16:49:49.591271+00:00
+prod_470,SKU-PROD_470,Tag 470,accessories,kong,False,"{'size': 'XS', 'color': 'Black', 'material': 'Rubber'}",2024-06-22 16:49:49.591277+00:00,
+prod_471,SKU-PROD_471,Toothbrush 471,grooming,hills,True,"{'size': 'XL', 'color': 'Red', 'material': 'Fabric'}",2024-02-06 16:49:49.591283+00:00,
+prod_472,SKU-PROD_472,Shampoo 472,wellness,purina,True,"{'size': 'XL', 'color': 'Green', 'material': 'Metal'}",2023-09-23 16:49:49.591289+00:00,
+prod_473,SKU-PROD_473,Leash 473,accessories,blue_buffalo,True,"{'size': 'S', 'color': 'Pink', 'material': 'Plastic'}",2024-05-09 16:49:49.591295+00:00,
+prod_474,SKU-PROD_474,Bed 474,treats,wellness,True,"{'size': 'S', 'color': 'White', 'material': 'Plastic'}",2025-01-14 16:49:49.591301+00:00,
+prod_475,SKU-PROD_475,Treats 475,wellness,kong,True,"{'size': 'L', 'color': 'White', 'flavor': 'Salmon', 'material': 'Metal'}",2022-12-16 16:49:49.591308+00:00,
+prod_476,SKU-PROD_476,Crate 476,accessories,blue_buffalo,False,"{'size': 'S', 'color': 'Green', 'material': 'Rubber'}",2023-01-11 16:49:49.591314+00:00,
+prod_477,SKU-PROD_477,Crate 477,accessories,purina,False,"{'size': 'S', 'color': 'Pink', 'material': 'Rubber'}",2023-12-10 16:49:49.591320+00:00,
+prod_478,SKU-PROD_478,Crate 478,toys,wellness,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Fabric'}",2024-04-03 16:49:49.591328+00:00,
+prod_479,SKU-PROD_479,Bowl 479,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2023-08-29 16:49:49.591334+00:00,
+prod_480,SKU-PROD_480,Bed 480,wellness,hills,False,"{'size': 'L', 'color': 'White', 'material': 'Fabric'}",2024-02-22 16:49:49.591340+00:00,2025-10-10 16:49:49.591343+00:00
+prod_481,SKU-PROD_481,Bowl 481,accessories,greenies,False,"{'size': 'XS', 'color': 'Black', 'material': 'Plastic'}",2023-07-29 16:49:49.591348+00:00,
+prod_482,SKU-PROD_482,Tag 482,treats,greenies,False,"{'size': 'XS', 'color': 'Green', 'material': 'Metal'}",2024-12-15 16:49:49.591354+00:00,
+prod_483,SKU-PROD_483,Food 483,wellness,blue_buffalo,True,"{'size': 'XL', 'color': 'Red', 'flavor': 'None', 'material': 'Metal'}",2024-10-17 16:49:49.591361+00:00,
+prod_484,SKU-PROD_484,Tag 484,treats,blue_buffalo,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Fabric'}",2023-09-08 16:49:49.591366+00:00,
+prod_485,SKU-PROD_485,Toothbrush 485,accessories,blue_buffalo,True,"{'size': 'XS', 'color': 'Brown', 'material': 'Rubber'}",2024-08-05 16:49:49.591372+00:00,
+prod_486,SKU-PROD_486,Brush 486,grooming,purina,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Metal'}",2023-07-29 16:49:49.591407+00:00,
+prod_487,SKU-PROD_487,Leash 487,wellness,greenies,False,"{'size': 'M', 'color': 'Brown', 'material': 'Wood'}",2025-04-23 16:49:49.591413+00:00,
+prod_488,SKU-PROD_488,Bowl 488,treats,purina,True,"{'size': 'M', 'color': 'White', 'material': 'Fabric'}",2023-06-30 16:49:49.591420+00:00,
+prod_489,SKU-PROD_489,Harness 489,wellness,purina,True,"{'size': 'L', 'color': 'Green', 'material': 'Plastic'}",2025-01-03 16:49:49.591426+00:00,
+prod_490,SKU-PROD_490,Bed 490,grooming,nylabone,True,"{'size': 'S', 'color': 'Brown', 'material': 'Rubber'}",2025-05-09 16:49:49.591433+00:00,2025-09-28 16:49:49.591435+00:00
+prod_491,SKU-PROD_491,Crate 491,toys,kong,True,"{'size': 'XL', 'color': 'Blue', 'material': 'Rubber'}",2024-11-02 16:49:49.591441+00:00,
+prod_492,SKU-PROD_492,Bowl 492,wellness,blue_buffalo,True,"{'size': 'S', 'color': 'Black', 'material': 'Metal'}",2024-12-22 16:49:49.591449+00:00,
+prod_493,SKU-PROD_493,Toothbrush 493,toys,kong,True,"{'size': 'M', 'color': 'Pink', 'material': 'Metal'}",2023-03-20 16:49:49.591455+00:00,
+prod_494,SKU-PROD_494,Harness 494,accessories,greenies,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Wood'}",2023-10-06 16:49:49.591462+00:00,2025-09-28 16:49:49.591464+00:00
+prod_495,SKU-PROD_495,Harness 495,treats,nylabone,True,"{'size': 'M', 'color': 'White', 'material': 'Metal'}",2024-11-02 16:49:49.591469+00:00,
+prod_496,SKU-PROD_496,Collar 496,toys,kong,True,"{'size': 'M', 'color': 'Black', 'material': 'Metal'}",2022-12-14 16:49:49.591475+00:00,2025-10-06 16:49:49.591477+00:00
+prod_497,SKU-PROD_497,Snacks 497,toys,hills,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Rubber'}",2024-08-26 16:49:49.591482+00:00,2025-09-17 16:49:49.591484+00:00
+prod_498,SKU-PROD_498,Crate 498,accessories,hills,False,"{'size': 'S', 'color': 'Green', 'material': 'Metal'}",2024-06-22 16:49:49.591490+00:00,
+prod_499,SKU-PROD_499,Bowl 499,toys,hills,True,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2023-05-25 16:49:49.591496+00:00,
+prod_500,SKU-PROD_500,Collar 500,toys,greenies,False,"{'size': 'M', 'color': 'Blue', 'material': 'Metal'}",2024-03-08 16:49:49.591501+00:00,2025-10-09 16:49:49.591504+00:00
+prod_501,SKU-PROD_501,Collar 501,grooming,kong,True,"{'size': 'XS', 'color': 'Red', 'material': 'Plastic'}",2024-02-17 16:49:49.591509+00:00,
+prod_502,SKU-PROD_502,Chew Toy 502,treats,royal_canin,True,"{'size': 'S', 'color': 'Blue', 'material': 'Plastic'}",2022-12-11 16:49:49.591514+00:00,
+prod_503,SKU-PROD_503,Snacks 503,grooming,hills,True,"{'size': 'L', 'color': 'White', 'material': 'Metal'}",2023-11-10 16:49:49.591520+00:00,
+prod_504,SKU-PROD_504,Food 504,treats,kong,True,"{'size': 'L', 'color': 'Pink', 'flavor': 'Chicken', 'material': 'Plastic'}",2024-04-22 16:49:49.591526+00:00,2025-09-19 16:49:49.591528+00:00
+prod_505,SKU-PROD_505,Bowl 505,toys,nylabone,True,"{'size': 'L', 'color': 'Pink', 'material': 'Plastic'}",2024-08-05 16:49:49.591542+00:00,2025-09-22 16:49:49.591544+00:00
+prod_506,SKU-PROD_506,Tag 506,toys,wellness,True,"{'size': 'L', 'color': 'Black', 'material': 'Fabric'}",2025-06-22 16:49:49.591551+00:00,
+prod_507,SKU-PROD_507,Snacks 507,grooming,royal_canin,True,"{'size': 'S', 'color': 'White', 'material': 'Rubber'}",2025-01-28 16:49:49.591557+00:00,
+prod_508,SKU-PROD_508,Chew Toy 508,wellness,purina,True,"{'size': 'S', 'color': 'Black', 'material': 'Wood'}",2023-06-29 16:49:49.591563+00:00,
+prod_509,SKU-PROD_509,Tag 509,toys,kong,True,"{'size': 'XL', 'color': 'Green', 'material': 'Fabric'}",2024-04-25 16:49:49.591568+00:00,
+prod_510,SKU-PROD_510,Brush 510,wellness,nylabone,True,"{'size': 'XS', 'color': 'Red', 'material': 'Fabric'}",2025-02-09 16:49:49.591574+00:00,
+prod_511,SKU-PROD_511,Brush 511,wellness,wellness,True,"{'size': 'XL', 'color': 'White', 'material': 'Metal'}",2025-08-04 16:49:49.591580+00:00,2025-10-04 16:49:49.591582+00:00
+prod_512,SKU-PROD_512,Treats 512,treats,blue_buffalo,False,"{'size': 'L', 'color': 'Black', 'flavor': 'Turkey', 'material': 'Wood'}",2024-08-24 16:49:49.591588+00:00,
+prod_513,SKU-PROD_513,Brush 513,accessories,purina,True,"{'size': 'L', 'color': 'Black', 'material': 'Wood'}",2025-04-28 16:49:49.591593+00:00,
+prod_514,SKU-PROD_514,Food 514,wellness,blue_buffalo,False,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Salmon', 'material': 'Rubber'}",2024-09-02 16:49:49.591599+00:00,
+prod_515,SKU-PROD_515,Bowl 515,accessories,purina,False,"{'size': 'M', 'color': 'Blue', 'material': 'Wood'}",2024-08-24 16:49:49.591605+00:00,2025-09-21 16:49:49.591608+00:00
+prod_516,SKU-PROD_516,Snacks 516,accessories,greenies,True,"{'size': 'M', 'color': 'Brown', 'material': 'Fabric'}",2025-03-03 16:49:49.591614+00:00,
+prod_517,SKU-PROD_517,Leash 517,toys,greenies,False,"{'size': 'XS', 'color': 'Yellow', 'material': 'Rubber'}",2024-08-20 16:49:49.591621+00:00,
+prod_518,SKU-PROD_518,Tag 518,toys,hills,True,"{'size': 'XL', 'color': 'Black', 'material': 'Rubber'}",2024-06-21 16:49:49.591629+00:00,
+prod_519,SKU-PROD_519,Tag 519,toys,wellness,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Rubber'}",2023-05-19 16:49:49.591636+00:00,
+prod_520,SKU-PROD_520,Treats 520,toys,blue_buffalo,True,"{'size': 'XS', 'color': 'Blue', 'flavor': 'Salmon', 'material': 'Plastic'}",2025-02-21 16:49:49.591642+00:00,
+prod_521,SKU-PROD_521,Bed 521,accessories,hills,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Wood'}",2023-05-20 16:49:49.591648+00:00,
+prod_522,SKU-PROD_522,Harness 522,accessories,purina,True,"{'size': 'L', 'color': 'Blue', 'material': 'Plastic'}",2023-06-17 16:49:49.591655+00:00,
+prod_523,SKU-PROD_523,Toothbrush 523,treats,royal_canin,False,"{'size': 'M', 'color': 'White', 'material': 'Fabric'}",2023-04-19 16:49:49.591662+00:00,
+prod_524,SKU-PROD_524,Bed 524,accessories,wellness,False,"{'size': 'L', 'color': 'Black', 'material': 'Fabric'}",2023-03-15 16:49:49.591668+00:00,2025-10-15 16:49:49.591670+00:00
+prod_525,SKU-PROD_525,Chew Toy 525,toys,blue_buffalo,True,"{'size': 'XL', 'color': 'Green', 'material': 'Fabric'}",2024-01-10 16:49:49.591677+00:00,
+prod_526,SKU-PROD_526,Chew Toy 526,treats,purina,True,"{'size': 'M', 'color': 'Green', 'material': 'Rubber'}",2023-02-17 16:49:49.591683+00:00,
+prod_527,SKU-PROD_527,Food 527,treats,greenies,True,"{'size': 'M', 'color': 'Yellow', 'flavor': 'None', 'material': 'Plastic'}",2024-01-10 16:49:49.591690+00:00,
+prod_528,SKU-PROD_528,Bed 528,accessories,hills,True,"{'size': 'XS', 'color': 'White', 'material': 'Metal'}",2022-12-22 16:49:49.591696+00:00,
+prod_529,SKU-PROD_529,Treats 529,accessories,blue_buffalo,True,"{'size': 'XL', 'color': 'Blue', 'flavor': 'Turkey', 'material': 'Rubber'}",2023-10-05 16:49:49.591702+00:00,2025-10-02 16:49:49.591733+00:00
+prod_530,SKU-PROD_530,Chew Toy 530,toys,wellness,True,"{'size': 'L', 'color': 'Red', 'material': 'Fabric'}",2023-12-03 16:49:49.591739+00:00,
+prod_531,SKU-PROD_531,Collar 531,grooming,wellness,True,"{'size': 'XS', 'color': 'Brown', 'material': 'Metal'}",2024-06-19 16:49:49.591745+00:00,2025-10-06 16:49:49.591747+00:00
+prod_532,SKU-PROD_532,Collar 532,wellness,greenies,True,"{'size': 'M', 'color': 'Blue', 'material': 'Metal'}",2023-06-22 16:49:49.591754+00:00,
+prod_533,SKU-PROD_533,Carrier 533,toys,hills,True,"{'size': 'S', 'color': 'Green', 'material': 'Metal'}",2022-12-22 16:49:49.591760+00:00,2025-09-25 16:49:49.591762+00:00
+prod_534,SKU-PROD_534,Bowl 534,accessories,wellness,False,"{'size': 'S', 'color': 'Blue', 'material': 'Fabric'}",2023-11-24 16:49:49.591768+00:00,
+prod_535,SKU-PROD_535,Carrier 535,toys,hills,True,"{'size': 'M', 'color': 'White', 'material': 'Plastic'}",2023-10-12 16:49:49.591774+00:00,
+prod_536,SKU-PROD_536,Toothbrush 536,grooming,greenies,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Wood'}",2023-03-29 16:49:49.591780+00:00,
+prod_537,SKU-PROD_537,Toothbrush 537,treats,wellness,True,"{'size': 'S', 'color': 'Blue', 'material': 'Rubber'}",2024-05-07 16:49:49.591785+00:00,
+prod_538,SKU-PROD_538,Brush 538,grooming,kong,False,"{'size': 'XS', 'color': 'Black', 'material': 'Metal'}",2025-08-01 16:49:49.591791+00:00,
+prod_539,SKU-PROD_539,Bed 539,treats,wellness,False,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2024-12-01 16:49:49.591826+00:00,
+prod_540,SKU-PROD_540,Food 540,wellness,kong,True,"{'size': 'S', 'color': 'Black', 'flavor': 'Chicken', 'material': 'Plastic'}",2025-05-31 16:49:49.591832+00:00,2025-09-25 16:49:49.591835+00:00
+prod_541,SKU-PROD_541,Crate 541,toys,nylabone,True,"{'size': 'M', 'color': 'White', 'material': 'Rubber'}",2024-01-26 16:49:49.591871+00:00,2025-10-08 16:49:49.591873+00:00
+prod_542,SKU-PROD_542,Brush 542,wellness,nylabone,True,"{'size': 'L', 'color': 'Blue', 'material': 'Plastic'}",2022-11-26 16:49:49.591879+00:00,2025-09-28 16:49:49.591881+00:00
+prod_543,SKU-PROD_543,Bowl 543,toys,kong,False,"{'size': 'XL', 'color': 'Black', 'material': 'Fabric'}",2023-07-04 16:49:49.591886+00:00,
+prod_544,SKU-PROD_544,Toothbrush 544,toys,purina,True,"{'size': 'M', 'color': 'Black', 'material': 'Plastic'}",2025-05-13 16:49:49.591892+00:00,
+prod_545,SKU-PROD_545,Food 545,wellness,kong,True,"{'size': 'S', 'color': 'White', 'flavor': 'Beef', 'material': 'Metal'}",2025-03-21 16:49:49.591902+00:00,2025-09-29 16:49:49.591904+00:00
+prod_546,SKU-PROD_546,Carrier 546,accessories,wellness,True,"{'size': 'S', 'color': 'Green', 'material': 'Metal'}",2023-11-12 16:49:49.591910+00:00,2025-09-28 16:49:49.591914+00:00
+prod_547,SKU-PROD_547,Collar 547,treats,wellness,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Plastic'}",2024-12-14 16:49:49.591920+00:00,2025-09-16 16:49:49.591922+00:00
+prod_548,SKU-PROD_548,Brush 548,treats,greenies,True,"{'size': 'XS', 'color': 'Blue', 'material': 'Plastic'}",2024-11-22 16:49:49.591928+00:00,
+prod_549,SKU-PROD_549,Carrier 549,grooming,hills,True,"{'size': 'M', 'color': 'Pink', 'material': 'Fabric'}",2024-08-28 16:49:49.591960+00:00,
+prod_550,SKU-PROD_550,Chew Toy 550,treats,greenies,True,"{'size': 'XL', 'color': 'Black', 'material': 'Wood'}",2024-05-29 16:49:49.591966+00:00,
+prod_551,SKU-PROD_551,Shampoo 551,toys,purina,False,"{'size': 'L', 'color': 'Green', 'material': 'Wood'}",2023-08-13 16:49:49.591972+00:00,
+prod_552,SKU-PROD_552,Tag 552,wellness,royal_canin,True,"{'size': 'S', 'color': 'Green', 'material': 'Plastic'}",2025-07-12 16:49:49.591978+00:00,2025-09-21 16:49:49.591980+00:00
+prod_553,SKU-PROD_553,Carrier 553,toys,blue_buffalo,True,"{'size': 'S', 'color': 'Yellow', 'material': 'Plastic'}",2024-09-19 16:49:49.591985+00:00,2025-09-18 16:49:49.591988+00:00
+prod_554,SKU-PROD_554,Brush 554,accessories,royal_canin,False,"{'size': 'L', 'color': 'Yellow', 'material': 'Metal'}",2025-06-23 16:49:49.591993+00:00,2025-09-22 16:49:49.591995+00:00
+prod_555,SKU-PROD_555,Treats 555,grooming,hills,True,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Chicken', 'material': 'Metal'}",2024-05-01 16:49:49.592001+00:00,2025-09-22 16:49:49.592003+00:00
+prod_556,SKU-PROD_556,Treats 556,toys,hills,True,"{'size': 'S', 'color': 'Pink', 'flavor': 'Salmon', 'material': 'Metal'}",2024-02-09 16:49:49.592009+00:00,2025-10-10 16:49:49.592011+00:00
+prod_557,SKU-PROD_557,Treats 557,wellness,blue_buffalo,True,"{'size': 'XL', 'color': 'Pink', 'flavor': 'Beef', 'material': 'Metal'}",2022-11-26 16:49:49.592017+00:00,
+prod_558,SKU-PROD_558,Crate 558,treats,greenies,True,"{'size': 'L', 'color': 'White', 'material': 'Metal'}",2024-09-15 16:49:49.592025+00:00,2025-09-27 16:49:49.592027+00:00
+prod_559,SKU-PROD_559,Shampoo 559,treats,royal_canin,True,"{'size': 'M', 'color': 'White', 'material': 'Plastic'}",2025-03-14 16:49:49.592033+00:00,
+prod_560,SKU-PROD_560,Shampoo 560,wellness,purina,True,"{'size': 'XL', 'color': 'Brown', 'material': 'Wood'}",2023-08-03 16:49:49.592039+00:00,2025-10-14 16:49:49.592041+00:00
+prod_561,SKU-PROD_561,Collar 561,treats,purina,True,"{'size': 'S', 'color': 'Green', 'material': 'Plastic'}",2023-05-11 16:49:49.592046+00:00,
+prod_562,SKU-PROD_562,Snacks 562,grooming,royal_canin,True,"{'size': 'S', 'color': 'Blue', 'material': 'Plastic'}",2025-09-09 16:49:49.592052+00:00,
+prod_563,SKU-PROD_563,Tag 563,toys,royal_canin,False,"{'size': 'L', 'color': 'Red', 'material': 'Wood'}",2024-05-17 16:49:49.592058+00:00,
+prod_564,SKU-PROD_564,Harness 564,accessories,royal_canin,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2024-05-03 16:49:49.592066+00:00,
+prod_565,SKU-PROD_565,Treats 565,accessories,wellness,True,"{'size': 'S', 'color': 'Red', 'flavor': 'Beef', 'material': 'Fabric'}",2024-11-23 16:49:49.592071+00:00,
+prod_566,SKU-PROD_566,Brush 566,accessories,blue_buffalo,False,"{'size': 'XS', 'color': 'Red', 'material': 'Rubber'}",2024-09-16 16:49:49.592077+00:00,
+prod_567,SKU-PROD_567,Harness 567,grooming,greenies,True,"{'size': 'XL', 'color': 'White', 'material': 'Rubber'}",2024-01-13 16:49:49.592083+00:00,
+prod_568,SKU-PROD_568,Shampoo 568,grooming,hills,False,"{'size': 'L', 'color': 'Blue', 'material': 'Fabric'}",2024-12-15 16:49:49.592089+00:00,
+prod_569,SKU-PROD_569,Carrier 569,grooming,purina,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Plastic'}",2025-02-05 16:49:49.592094+00:00,
+prod_570,SKU-PROD_570,Carrier 570,wellness,blue_buffalo,True,"{'size': 'XL', 'color': 'White', 'material': 'Fabric'}",2024-12-25 16:49:49.592104+00:00,2025-09-29 16:49:49.592106+00:00
+prod_571,SKU-PROD_571,Leash 571,wellness,royal_canin,True,"{'size': 'XL', 'color': 'Yellow', 'material': 'Fabric'}",2025-09-13 16:49:49.592112+00:00,
+prod_572,SKU-PROD_572,Supplements 572,toys,royal_canin,True,"{'size': 'S', 'color': 'Brown', 'material': 'Metal'}",2023-11-03 16:49:49.592117+00:00,
+prod_573,SKU-PROD_573,Chew Toy 573,accessories,wellness,True,"{'size': 'S', 'color': 'Black', 'material': 'Fabric'}",2023-12-26 16:49:49.592123+00:00,
+prod_574,SKU-PROD_574,Chew Toy 574,accessories,purina,False,"{'size': 'XS', 'color': 'White', 'material': 'Fabric'}",2025-07-19 16:49:49.592129+00:00,
+prod_575,SKU-PROD_575,Brush 575,treats,purina,True,"{'size': 'L', 'color': 'Pink', 'material': 'Rubber'}",2023-01-04 16:49:49.592135+00:00,
+prod_576,SKU-PROD_576,Harness 576,wellness,purina,True,"{'size': 'L', 'color': 'Red', 'material': 'Wood'}",2023-12-10 16:49:49.592141+00:00,
+prod_577,SKU-PROD_577,Toothbrush 577,treats,purina,True,"{'size': 'XS', 'color': 'Green', 'material': 'Fabric'}",2023-10-23 16:49:49.592147+00:00,2025-09-25 16:49:49.592149+00:00
+prod_578,SKU-PROD_578,Crate 578,accessories,greenies,True,"{'size': 'S', 'color': 'Blue', 'material': 'Fabric'}",2025-07-14 16:49:49.592155+00:00,
+prod_579,SKU-PROD_579,Tag 579,wellness,nylabone,True,"{'size': 'S', 'color': 'White', 'material': 'Metal'}",2024-07-01 16:49:49.592160+00:00,
+prod_580,SKU-PROD_580,Toothbrush 580,treats,nylabone,False,"{'size': 'XS', 'color': 'Yellow', 'material': 'Rubber'}",2022-11-15 16:49:49.592166+00:00,
+prod_581,SKU-PROD_581,Bed 581,wellness,greenies,True,"{'size': 'M', 'color': 'Pink', 'material': 'Wood'}",2023-11-16 16:49:49.592173+00:00,
+prod_582,SKU-PROD_582,Bed 582,toys,greenies,True,"{'size': 'XS', 'color': 'Pink', 'material': 'Metal'}",2025-09-08 16:49:49.592180+00:00,
+prod_583,SKU-PROD_583,Brush 583,toys,nylabone,True,"{'size': 'L', 'color': 'Red', 'material': 'Rubber'}",2025-08-01 16:49:49.592186+00:00,
+prod_584,SKU-PROD_584,Bed 584,treats,purina,True,"{'size': 'S', 'color': 'Black', 'material': 'Fabric'}",2023-03-28 16:49:49.592195+00:00,
+prod_585,SKU-PROD_585,Leash 585,grooming,greenies,True,"{'size': 'M', 'color': 'Blue', 'material': 'Rubber'}",2024-07-20 16:49:49.592201+00:00,
+prod_586,SKU-PROD_586,Food 586,accessories,purina,True,"{'size': 'S', 'color': 'Yellow', 'flavor': 'Salmon', 'material': 'Plastic'}",2023-12-19 16:49:49.592207+00:00,
+prod_587,SKU-PROD_587,Treats 587,accessories,royal_canin,True,"{'size': 'S', 'color': 'Pink', 'flavor': 'Chicken', 'material': 'Rubber'}",2023-07-24 16:49:49.592213+00:00,
+prod_588,SKU-PROD_588,Crate 588,toys,hills,True,"{'size': 'S', 'color': 'Pink', 'material': 'Wood'}",2023-12-17 16:49:49.592219+00:00,
+prod_589,SKU-PROD_589,Harness 589,treats,nylabone,False,"{'size': 'XL', 'color': 'Green', 'material': 'Rubber'}",2025-03-01 16:49:49.592225+00:00,2025-10-06 16:49:49.592227+00:00
+prod_590,SKU-PROD_590,Bowl 590,wellness,royal_canin,True,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2023-09-03 16:49:49.592232+00:00,2025-10-10 16:49:49.592235+00:00
+prod_591,SKU-PROD_591,Harness 591,grooming,purina,False,"{'size': 'L', 'color': 'Red', 'material': 'Rubber'}",2025-01-28 16:49:49.592240+00:00,
+prod_592,SKU-PROD_592,Leash 592,wellness,royal_canin,True,"{'size': 'M', 'color': 'White', 'material': 'Wood'}",2022-11-11 16:49:49.592245+00:00,
+prod_593,SKU-PROD_593,Brush 593,wellness,nylabone,False,"{'size': 'XL', 'color': 'Blue', 'material': 'Fabric'}",2023-06-19 16:49:49.592251+00:00,2025-10-08 16:49:49.592253+00:00
+prod_594,SKU-PROD_594,Leash 594,accessories,wellness,True,"{'size': 'L', 'color': 'Brown', 'material': 'Rubber'}",2024-07-17 16:49:49.592259+00:00,2025-09-20 16:49:49.592261+00:00
+prod_595,SKU-PROD_595,Bowl 595,wellness,purina,False,"{'size': 'S', 'color': 'Blue', 'material': 'Wood'}",2025-01-25 16:49:49.592267+00:00,2025-10-05 16:49:49.592269+00:00
+prod_596,SKU-PROD_596,Harness 596,accessories,nylabone,True,"{'size': 'S', 'color': 'Black', 'material': 'Metal'}",2025-02-06 16:49:49.592275+00:00,2025-10-05 16:49:49.592277+00:00
+prod_597,SKU-PROD_597,Shampoo 597,wellness,kong,True,"{'size': 'S', 'color': 'Green', 'material': 'Wood'}",2024-11-20 16:49:49.592284+00:00,
+prod_598,SKU-PROD_598,Crate 598,wellness,blue_buffalo,True,"{'size': 'XL', 'color': 'Pink', 'material': 'Plastic'}",2023-12-08 16:49:49.592290+00:00,
+prod_599,SKU-PROD_599,Carrier 599,accessories,blue_buffalo,True,"{'size': 'M', 'color': 'Blue', 'material': 'Wood'}",2022-11-06 16:49:49.592296+00:00,2025-09-18 16:49:49.592298+00:00
+prod_600,SKU-PROD_600,Treats 600,treats,blue_buffalo,True,"{'size': 'M', 'color': 'Red', 'flavor': 'None', 'material': 'Rubber'}",2025-02-04 16:49:49.592304+00:00,

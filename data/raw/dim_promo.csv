@@ -1,0 +1,40 @@
+promo_id,promo_name,promo_type,start_date,end_date
+black_friday_2022,Black Friday 2022 - Up to 50% Off,discount,2022-11-24,2022-11-30
+holiday_season_2022,Holiday Season 2022 Special,discount,2022-12-01,2022-12-31
+valentines_2022,Valentine's Day 2022 - Love Your Pet,discount,2022-02-10,2022-02-16
+mothers_day_2022,Mother's Day 2022 - Treat Mom's Pet,discount,2022-05-08,2022-05-14
+summer_2022_1,Summer 2022 - Discount Special,discount,2022-06-01,2022-08-31
+back_to_school_2022,Back to School 2022 - Pet Prep,bundle,2022-08-15,2022-09-15
+flash_2022_2,Flash Sale 2022 - Bogo,BOGO,2022-09-19,2022-09-22
+flash_2022_3,Flash Sale 2022 - Discount,discount,2022-01-03,2022-01-06
+flash_2022_4,Flash Sale 2022 - Discount,discount,2022-04-20,2022-04-27
+flash_2022_5,Flash Sale 2022 - Coupon,coupon,2022-09-23,2022-09-27
+new_customer_2022,New Customer 2022 - Welcome Discount,coupon,2022-01-01,2022-12-31
+black_friday_2023,Black Friday 2023 - Up to 50% Off,discount,2023-11-24,2023-11-30
+holiday_season_2023,Holiday Season 2023 Special,discount,2023-12-01,2023-12-31
+valentines_2023,Valentine's Day 2023 - Love Your Pet,discount,2023-02-10,2023-02-16
+mothers_day_2023,Mother's Day 2023 - Treat Mom's Pet,discount,2023-05-08,2023-05-14
+summer_2023_6,Summer 2023 - Bogo Special,BOGO,2023-06-01,2023-08-31
+flash_2023_7,Flash Sale 2023 - Bogo,BOGO,2023-12-11,2023-12-17
+flash_2023_8,Flash Sale 2023 - Bogo,BOGO,2023-03-25,2023-03-28
+new_customer_2023,New Customer 2023 - Welcome Discount,coupon,2023-01-01,2023-12-31
+black_friday_2024,Black Friday 2024 - Up to 50% Off,discount,2024-11-24,2024-11-30
+holiday_season_2024,Holiday Season 2024 Special,discount,2024-12-01,2024-12-31
+valentines_2024,Valentine's Day 2024 - Love Your Pet,discount,2024-02-10,2024-02-16
+mothers_day_2024,Mother's Day 2024 - Treat Mom's Pet,discount,2024-05-08,2024-05-14
+summer_2024_9,Summer 2024 - Bundle Special,bundle,2024-06-01,2024-08-31
+flash_2024_10,Flash Sale 2024 - Bogo,BOGO,2024-08-04,2024-08-11
+flash_2024_11,Flash Sale 2024 - Coupon,coupon,2024-02-10,2024-02-17
+flash_2024_12,Flash Sale 2024 - Discount,discount,2024-10-19,2024-10-24
+flash_2024_13,Flash Sale 2024 - Coupon,coupon,2024-12-02,2024-12-05
+new_customer_2024,New Customer 2024 - Welcome Discount,coupon,2024-01-01,2024-12-31
+black_friday_2025,Black Friday 2025 - Up to 50% Off,discount,2025-11-24,2025-11-30
+holiday_season_2025,Holiday Season 2025 Special,discount,2025-12-01,2025-12-31
+valentines_2025,Valentine's Day 2025 - Love Your Pet,discount,2025-02-10,2025-02-16
+mothers_day_2025,Mother's Day 2025 - Treat Mom's Pet,discount,2025-05-08,2025-05-14
+summer_2025_14,Summer 2025 - Bogo Special,BOGO,2025-06-01,2025-08-31
+back_to_school_2025,Back to School 2025 - Pet Prep,bundle,2025-08-15,2025-09-15
+flash_2025_15,Flash Sale 2025 - Bogo,BOGO,2025-11-06,2025-11-11
+flash_2025_16,Flash Sale 2025 - Bogo,BOGO,2025-06-22,2025-06-26
+flash_2025_17,Flash Sale 2025 - Coupon,coupon,2025-12-20,2025-12-23
+new_customer_2025,New Customer 2025 - Welcome Discount,coupon,2025-01-01,2025-12-31
